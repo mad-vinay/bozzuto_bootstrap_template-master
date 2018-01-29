@@ -399,6 +399,15 @@
 	.form-control {
 	    font-size: 12px;
 	}
+	.compare-bank label {
+    font-size: 12px;
+}
+span.multiselect-selected-text {
+    font-size: 12px;
+}
+form.form-inline.select-country {
+    width: 110px;
+}
 
 }
 
