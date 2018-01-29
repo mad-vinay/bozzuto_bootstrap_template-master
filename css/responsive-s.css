@@ -1,0 +1,347 @@
+@media screen and (max-width: 1199px) {
+	.l-banner-text {
+		padding-top: 10px;
+	}
+	#SlidThree .cell-2>a.phone, 
+	#SlidThree .cell-2>a.email {
+		font-size: 23px;	
+	}
+	#SlidThree .cell-2>span {
+		font-size: 17px;
+	}
+	#SlidThree .cell-1>label {
+		padding-left: 97px;
+	}
+	#SlidThree .cell-3 {
+		padding-left: 0;
+	}
+	#SlidThree .cell-1 ul.social li,
+	#SlidThree .cell-1 ul.social li a {
+		width: 38px;
+		height: 38px;
+	}
+	
+}
+@media screen and (max-width: 991px) {
+	.l-middleContent a.l-watchvideo {
+		margin-left: 390px;
+	}
+	#SlidOne .owl-prev, #SlidTwo .owl-prev,
+	#SlidOne .owl-next, #SlidTwo .owl-next {
+		top: -5px;
+	}
+	#SlidThree .cell-1>label {
+		padding-left: 59px;
+	}
+	#SlidThree .cell-1 ul.social li,
+	#SlidThree .cell-1 ul.social li a {
+		width: 26px;
+		height: 26px;
+	}
+	#SlidThree .cell-1 ul.social li {
+		font-size: 13px;
+	}
+	#SlidThree .cell-1 ul.social li a {
+		line-height: 28px;
+	}
+	#SlidThree .cell-2>a.phone, #SlidThree .cell-2>a.email {
+		font-size: 17px;
+	}
+	#SlidThree .cell-2 p {
+		font-size: 13px;
+		line-height: normal;
+	}
+	#SlidThree .cell-3 .top ul li:first-child {
+		font-size: 15px;
+	}
+	#SlidThree .cell-3 .top ul {
+		font-size: 12px;
+	}
+	#SlidThree .cell-3 .bottom p {
+		font-size: 13px;
+	}
+	.hmz-modal-s .modal-body .midContent .row01 .cell {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.hmz-modal-s .modal-body .midContent .row01 {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+@media (min-width: 768px){
+	#hestimator_select li.card .form-inline .form-group{width:100%;}
+}
+@media screen and (max-width: 767px) {
+	.l-banner-text h1 {
+		font-size: 30px;
+	}
+	.l-banner .search-box {
+		width: 300px;
+	}
+	.l-account {
+		width: 100%;
+		text-align: center;
+	}
+	.l-account a {
+		margin: 5px auto;
+		padding: 0;
+		float: none;
+	}
+	.l-account a:last-child {
+		float: none;
+	}
+	.l-banner .cellWrap .cell {
+		margin: 0;
+		width: 33.33%;
+	}
+	.l-banner .cellWrap {
+		width: 100%;
+	}
+	.l-banner .cellWrap .cell img {
+		width: 80px;
+	}
+	.l-left {
+		padding: 0;
+	}
+	.l-left a {
+		margin-bottom: 20px;
+	}
+	.l-middleContent section.ideas {
+		margin-top: 30px;
+	}
+	.l-middleContent section.ideas .top h2 {
+		margin-bottom: 25px;
+	}
+	.l-middleContent section.ideas .cell01 {
+		padding: 0 0 10px 90px;
+	}
+	.l-middleContent section.ideas .cell01 img {
+		width: 70px;
+	}
+	.l-watchvideo {
+		margin-left: 0;
+	}
+	.l-banner a.free {
+		margin-left: 0;
+	}
+	.l-middleContent a.l-watchvideo {
+		margin-left: 0;
+	}
+	#SlidThree .cell-1>label {
+		text-align: center;
+		padding-left: 0;
+	}
+	.HomzcareBanner>.banner-text>.care {
+		width: 80px;
+	}
+	.HomzcareBanner .owl-carousel .item .content span {
+		width: 100%;
+		float: none;
+		padding-right: 0;
+		text-align: center;
+		border: 0px;
+	}
+	.HomzcareBanner .owl-carousel .item .content span::after {
+		display: none;
+	}
+	.HomzcareBanner .owl-carousel .item .content p {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.HomzcareBanner .owl-carousel .item .content {
+		padding-top: 147px;
+	}
+	.HomzcareBanner .owl-carousel .item .content p {
+		font-size: 17px;
+	}
+	.HomzcareBanner .owl-carousel .item .content span {
+		font-size: 40px;
+	}
+	.HomzcareBanner>.banner-text>h1 {
+		font-size: 16px;
+		padding-right: 5px;
+		padding-left: 5px;
+		width: 300px;
+	}
+	.HomzcareBanner .owl-carousel .item {
+		height: 450px !important;
+	}
+	.SlidOne {
+		padding-top: 30px;
+		padding-bottom: 60px;
+	}
+	#SlidOne .owl-nav, #SlidTwo .owl-nav {
+		width: 100px;
+		position: relative;
+		left: 50%;
+		top: -60px;
+		-webkit-transform: translateX(-50%);
+		   -moz-transform: translateX(-50%);
+		    -ms-transform: translateX(-50%);
+		     -o-transform: translateX(-50%);
+		        transform: translateX(-50%);
+	}
+	#SlidOne .owl-prev, #SlidTwo .owl-prev, #SlidOne .owl-next, #SlidTwo .owl-next {
+		top: 61px;
+	}
+	#SlidOne .owl-prev, #SlidTwo .owl-prev {
+		left: 0;
+	}
+	#SlidOne .owl-next, #SlidTwo .owl-next {
+		right: 0;
+	}
+	.l-middleContent h2 {
+		font-size: 35px;
+	}
+	.l-middleContent section.ideas .cell01 a span.title {
+		line-height: 22px;
+	}
+	section.faq-sec h4 {
+		font-size: 20px;
+	}
+	#SlidThree .cell-2>span img {
+		width: 18px !important;
+	}
+	#SlidThree .cell-3 .top ul {
+		font-size: 15px;
+	}
+	.know-more-about h3 {
+		font-size:28px;
+	}
+	footer.style1 .copyright .left,
+	footer.style1 .copyright .right {
+		text-align: center;
+		float: none;
+		width: 100%;
+	}
+	footer.style1 .copyright .left {
+		padding-bottom: 10px;
+	}
+	.hmz-modal-form-s .modal-dialog {
+		width: 95%;
+		margin: 15px 0 0 2.5%;
+	}
+	#hmz-needhelp-modal .top .left p {
+		text-align: center;
+	}
+	#hmz-needhelp-modal .top .left {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		padding-left: 0;
+	}
+	#hmz-needhelp-modal .top .right {
+		float: none;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+	#hmz-needhelp-modal .top .left img {
+		display: none;
+	}
+	.hmz-modal-form-s .modal-body .bottom img {
+		float: none;
+	}
+	.hmz-modal-form-s .modal-body .bottom button {
+		float: none;
+		display: block;
+	}
+	.hmz-modal-form-s .modal-body {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.hmz-modal-s .modal-body .midContent {
+		width: 98%;
+	}
+	.hmz-modal-s .modal-body .midContent .content {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.hmz-modal-s .modal-body .midContent .row01 .cell span {
+		font-size: 9px;
+	}
+	.hmz-modal-s .modal-body .midContent .content p {
+		font-size: 18px;
+	}
+	.hmz-modal-s .modal-body .modHeader h1 {
+		font-size: 27px;
+		padding-top: 100px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#hmz-careers-modal .modal-body .midContent .content {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.job-openings {
+	    width: 100%;
+	    background: none;
+	    padding: 0 5px;
+	    padding-bottom: 0;
+	    margin: 20px auto 0 auto;
+	}
+	.job-openings .cell>.top span.left {
+		float: none;
+		text-align: left;
+		width: 100%;
+	}
+	.job-openings .cell>.top span.right {
+		float: none;
+		text-align: left;
+		width: 100%;
+		padding-top: 10px;
+		display: block;
+	}
+	.job-openings .cell {
+		padding-left: 10px;
+		padding-right: 15px;
+	}
+	.attach-cell {
+		padding: 10px;
+	}
+	.attach-cell .cell .row-one span.brows-bg {
+		float: none;
+	}
+	.attach-cell .cell .row-one p {
+		display: block;
+		text-align: left;
+	}
+	.attach-cell span.loading {
+		font-size: 16px;
+	}
+	.attach-cell .cell .row-one p {
+		font-size: 14px;
+	}
+	#SlidThree .cell-3 .bottom {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.wrapper-1 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.cell-4 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.cell-4 .top img {
+		position: relative;
+		margin-bottom: 10px;
+	}
+	.cell-4 .top span {
+		display: block;
+		line-height: 30px;
+	}
+	.cell-4 .top {
+		display: block;
+		text-align: center;
+		width: 100%;
+		height: auto;
+		padding-left: 0;
+	}
+	.cell-5 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

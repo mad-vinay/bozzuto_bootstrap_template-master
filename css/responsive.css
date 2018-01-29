@@ -1,0 +1,399 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	.homz-menu .navbar-nav > li {
+		padding: 0 1.2%;
+	}
+	.homz-menu .navbar-right {
+		max-width: 84%;
+	}
+	.form-container .checkbox-grp {
+		width: 50%;
+	}
+	.width-90 {
+		width: 87% !important;
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.homz-menu .navbar-nav > li > a {
+		font-size: 14px;
+	}
+	.homz-menu .navbar-nav > li {
+		padding: 0 5px;
+	}
+	.form-container .checkbox-grp {
+		width: 50%;
+	}
+	.homz-menu .navbar-right {
+		max-width: 79%;
+	}
+	.form-container .checkbox-grp {
+		width: 50%;
+	}
+	ul.rating-star {
+		width: 100%;
+	}
+	.width-90 {
+		width: 80% !important;
+	}
+	
+}
+/* @media (min-width: 1300px) {
+	
+	.homz-menu .navbar-nav > li {
+		padding: 0 2.8%;
+	}
+
+} */
+@media (min-width: 1200px) {
+	
+	.navbar-left {
+		max-width: 980px !important;
+	}
+	
+	.checkbox-container .form-group {
+		width: 800px;
+	}
+
+}
+
+@media (min-width: 768px) {
+	
+	.modal-dialog {
+		width: 420px;
+	}
+	.navbar-left {
+		width: 100%;
+		max-width: 560px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	
+	.form-head {
+		padding: 20px;
+	}
+	.form-head h2 {
+		font-size: 28px;
+	}
+	.form-head p {
+		font-size: 14px;
+	}
+	.homz-menu .navbar-toggle {
+		margin-top: 8px;
+		border: none;
+		padding: 0;
+		background: transparent !important;
+	}
+	.homz-menu .navbar-nav {
+		background: #fff;
+		-webkit-box-shadow: 0 .5px 1px rgba(0, 0, 0, 0.5);
+		box-shadow: 0 0px 10px #D0D0D0;
+		margin-top: 0;
+	}
+	.homz-menu .navbar-nav > li > a {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	.homz-menu {
+		text-align: center;
+	}
+	.homz-menu .navbar-brand {
+		float: none;
+		margin: 0 auto;
+		display: inline-block;
+		margin-left: 5%;
+		padding-bottom: 3px;
+		height: auto;
+	}
+	.homz-menu .navbar-right {
+		width: 100%;
+		max-width: 100%;
+		position: absolute;
+		right: 0;
+		left: 0;
+		margin: 0;
+		margin-top: -9px;
+		box-shadow: none;
+	}
+	.homz-menu .navbar-nav > li .dropdown-menu {
+		top: auto;
+		bottom: 100%;
+		background: #fff;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		right: 0;
+		border: 1px solid #ddd;
+		max-width: 90%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	.homz-menu .navbar-nav > li .dropdown-menu a {
+		line-height: 1.8;
+	}
+	.homz-menu .navbar-right {
+		padding-left: 0;
+		padding-top: 10px;
+		z-index: 9999;
+	}
+	.homz-menu .navbar-right .dropdown-menu {
+		-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+		box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	}
+	.mobile-filer {
+		position: absolute !important;
+		top: 40px;
+		width: 100%;
+		left: 0;
+		right: 0;
+	}
+	.dropdown-btn {
+		padding: 6px 10px;
+	}
+	.container-middle {
+		padding-top: 50px;
+	}
+	.list-item {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.wrap-1 {
+		text-align: center;
+	}
+	.ideas-logo {
+		position: relative;
+		top: 40px;
+		left: 0;
+	}
+	.featured-list {
+		padding: 55px 0 0;
+	}
+	 .homz-ideas .container-middle {
+		padding-top: 0;
+	}
+	.featured-list li {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+	.homz-ideas .idea-list-title {
+		font-size: 24px;
+	}
+	.homz-ideas .like-share-views li {
+		padding: 0 2px;
+		font-size: 14px;
+	}
+	.minus-10 {
+		margin-left: 0;
+	}
+	.ideas-dropdown-menu {
+		width: 180px;
+	}
+	.ideas-dropdown-menu > li > a {
+		position: relative;
+	}
+	.ideas-dropdown-menu > li > a:after {
+		content: url('../img/arrow-slim.jpg');
+		position: absolute;
+		right: 0;
+		top: 5px;
+	}
+	.homz-ideas div.stars {
+		width: 90px;
+	}
+	.list-item .dropdown {
+		top: 0;
+	}
+	.m-top10 {
+		margin-top: 30px !important;
+	}
+	.hidden-xs-chat {
+		display: none;
+	}
+	.like-share-views {
+		margin: 10px 0 0;
+	}
+	.homz-ideas .list-item {
+		padding-bottom: 20px !important;
+		margin-bottom: 25px;
+	}
+	.homz-ideas .list-item {
+		padding: 10px 0;
+		padding-bottom: 10px !important;
+		margin-bottom: 25px;
+	}
+	.modal-LG {
+		width: 100% !important;
+		margin-left: 0;
+	}
+	.margin-45 {
+		margin-top: 25px !important;
+	}
+	.modal-LG .btn-green {
+		margin-left: 0;
+	}
+	.modal.fade.in.Review-author {
+		margin-top: 30px;
+	}
+	h3.green {
+		padding: 8px 12px;
+		font-size: 15px;
+	}
+	.Review-author .likes {
+		/* margin-top: 0; */
+	}
+	.mobile-xs90 {
+		width: 80%;
+		float: left;
+		padding-right: 0;
+	}
+	.mobile-xs10 {
+		width: 18%;
+		float: left;
+		padding-left: 0;
+		text-align: right;
+		font-size: 14px;
+	}
+	.Review-author .media-heading {
+		font-size: 15px;
+	}
+	.Review-author .bottom-20 {
+		margin-bottom: 10px !important;
+	}
+	.Review-author .margin-45 {
+		margin-top: 10px !important;
+	}
+	.Review-author hr {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.Review-author h4 {
+		font-size: 15px;
+	}
+	.Review-author .last-line {
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+	.modal .rate-posts .left, .modal .rate-posts .right, .total-rate .right, .total-rate .left {
+		width: 100%;
+	}
+	.total-rating-rate, .total-rating {
+		padding: 0;
+	}
+	.report-user-modal .rate-posts .left {
+		width: 100%;
+	}
+	.modal-bottom {
+		height: 180px;
+	}
+	.modal-full .modal-LG {
+		width: auto !important;
+		max-width: 100%;
+	}
+	.width-90 {
+		width: 87% !important;
+		display: inline-block;
+	}
+	.homz-ideas-article h2 {
+		font-size: 18px;
+		line-height: 1;
+		margin-top: 0;
+	}
+	.list-item .media-object {
+		width: 50px;
+	}
+	.like-share-views li:first-child img {
+		width: 16px;
+		vertical-align: sub;
+	}
+	.like-share-views li:nth-child(2) img {
+		vertical-align: inherit;
+		width: 14px;
+	}
+	.like-share-views li:nth-child(3) img {
+		vertical-align: sub;
+		width: 16px;
+	}
+	.like-share-views {
+		padding: 0;
+	}
+	.like-share-views li {
+		font-size: 12px;
+		padding: 0 5px;
+	}
+	.detailed-banner {
+		height: 220px;
+	}
+	.container-middle label.star {
+		font-size: 16px;
+	}
+	.list-item .dropdown {
+		top: 0;
+		right: 38px;
+	}
+	.homz-ideas-article .like-share-views li {
+		padding: 0 5px;
+	}
+	.homz-ideas-article figure {
+		margin: 5px;
+		float: left;
+		width: 44%;
+	}
+	.pull-r {
+		float: right;
+		margin-right: 0 !important;
+	}
+	.pull-l {
+		float: left;
+	}
+	.homz-ideas-article .list-item {
+		margin-bottom: 0;
+	}
+	
+	
+	
+	
+	
+	
+}
+
+@media (max-width: 520px) {
+	
+	.form-container .checkbox-grp {
+		width: 50%;
+	}
+	.form-container input[type=checkbox].css-checkbox + label.css-label {
+		font-size: 12px;
+	}
+	div.compare-wrap {
+	    width: 70vw;
+	}
+	div#tab-2 select,
+	div#tab-2 .form-control {
+	    width: 80%;
+	}
+	div#tab-2 .selectbox-inline select:last-child {
+	    width: 30%;
+	}
+	div#tab-2 .selectbox-inline select:first-child {
+    	width: 70%;
+    }
+
+}
+
+@media (max-width: 400px) {
+	
+	.table-wrap {
+	    overflow-y: hidden;
+	}
+
+}
+
+
+
+
+
+
