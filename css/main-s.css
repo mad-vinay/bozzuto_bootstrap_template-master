@@ -1940,7 +1940,8 @@ div#tab-2 {
     width: 40% ;
 }
 .form-inline .form-group {
-    width: 100%;
+    width: 140px;
+    margin: 0 auto;
 }
 ul#hestimator_select {
     width: 100%;
@@ -1957,6 +1958,7 @@ ul#hestimator_select {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 50%;
 }
 .btn-group {
     width: 100%;
@@ -1966,5 +1968,5 @@ button.multiselect.dropdown-toggle.btn.btn-default {
     border: none;
 }
 form.form-inline.select-country {
-    width: 140px;
+    width: 50%;
 }
