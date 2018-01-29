@@ -369,11 +369,7 @@
 		font-size: 12px;
 	}
 	div.compare-wrap {
-	    width: 70vw;
-	}
-	div#tab-2 select,
-	div#tab-2 .form-control {
-	    width: 80%;
+	    width: 100%;
 	}
 	div#tab-2 .selectbox-inline select:last-child {
 	    width: 30%;
@@ -381,6 +377,28 @@
 	div#tab-2 .selectbox-inline select:first-child {
     	width: 70%;
     }
+    .hestimator-wrapper .tab-link span {
+	    font-size: 10px;
+	}
+	.hestimator-wrapper .tab-link.current:after {
+	    border-left: 20px solid transparent;
+	    border-right: 20px solid transparent;
+	    border-top: 15px solid green;
+	    bottom: -45px;
+	}
+	.bootstrap-select .filter-option:after {
+	    font-size: 14px;
+	    top: -1px;
+	}
+	.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	    font-size: 12px;
+	}
+	.bootstrap-select.btn-group .dropdown-menu.inner {
+	    font-size: 12px;
+	}
+	.form-control {
+	    font-size: 12px;
+	}
 
 }
 

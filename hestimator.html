@@ -13,6 +13,7 @@
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/font-awesome.css" rel="stylesheet">
 		<link href="css/bootstrap-select.min.css" rel="stylesheet">
+		<link href="css/bootstrap-multiselect.css" rel="stylesheet">
 		<link href="css/registration-form.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/custom.css" rel="stylesheet">
@@ -134,8 +135,31 @@
 						</div>
 						<div id="tab-1" class="tab-content current">
 						<div class="container text-center compare-wrap">
-						    <a href="" title="" class="col-md-12">Find Loans</a>
-							<a href="" title="" class="col-md-12">Compare</a>
+							<form class="form-inline select-country">
+								<div class="form-group">
+									<select class="selectpicker" data-live-search="true" title="Select Country">
+										<option>All Country</option>
+										<option>India</option>
+										<option>Oman</option>
+										<option>U.A.E</option>
+										<option>Others</option>
+									</select>
+								</div>
+							</form>
+						     <div class="compare-bank">
+							    <label for="">Select bank to Compare</label>
+							     <select id="boot-multiselect-demo" multiple="multiple">
+							            <option value="jQuery">jQuery Tutorials</option>
+							            <option value="Bootstrap">Bootstrap Framework</option>
+							            <option value="HTML">HTML</option>
+							            <option value="CSS" >CSS</option>
+							            <option value="Angular">Angular</option>
+							            <option value="Java">Java</option>
+							            <option value="Python">Python</option>
+							            <option value="MySQL">MySQL</option>
+							            <option value="Oracle">Oracle</option>
+							    </select>
+							</div>
 						</div>
 						<div class="container text-center select-box">
 							<ul id="hestimator_select" role="tablist" aria-multiselectable="true" class="col-md-10">
@@ -256,129 +280,188 @@
 							<h1>Calculate your home estimate.</h1>
 							<p>An uncompromising design for all kind of people. it gives you the power to calculate your own home estimate. It is as beautiful because it is the most advanced in its simple form</p>
 						</div>
+						
 						<div class="container-fluid text-left"> 
-							<form>
-							    <div class="form-group">
-							      <label for="usr">Country where home is preposed</label>
-							      <select>
-									  <option value="volvo">Country</option>
-									  <option value="saab">test</option>
-									  <option value="mercedes">test</option>
-									  <option value="audi">test</option>
-									</select>
-							    </div>
-							 </form>
+							<form class="form-inline">
+										<div class="form-group">
+										<label for="usr">Country where home is preposed</label>
+											<div class="form-group">
+											<select class="selectpicker" data-live-search="true" title="Country">
+												<option>All Country</option>
+												<option>India</option>
+												<option>Oman</option>
+												<option>U.A.E</option>
+												<option>Others</option>
+											</select>
+										</div>
+										</div>
+									</form>
 
-							 <form>
-							    <div class="form-group">
-							      <label for="usr">Select the Unit</label>
-							      <select>
-									  <option value="volvo">Unit</option>
-									  <option value="saab">test</option>
-									  <option value="mercedes">test</option>
-									  <option value="audi">test</option>
-									</select>
-							    </div>
-							 </form>
+							 <form class="form-inline">
+										<div class="form-group">
+										<label for="usr">Select the Unit</label>
+											<select class="selectpicker" data-live-search="true" title="Unit">
+												<option>Unit</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+											</select>
+										</div>
+									</form>
 
-							  <form>
-							 	 <div class="form-group">
-								  	<span>Floor area details</span>
-								    <div class="checkbox">
-								      <label>Option 1<input type="checkbox" value=""></label>
-								    </div>
-								    <div class="checkbox">
-								      <label>Option 2<input type="checkbox" value=""></label>
-								    </div>
-								    <div class="checkbox disabled">
-								      <label>Option 3<input type="checkbox" value="" disabled></label>
-								    </div>
-								 </div>
-							  </form>
+							  		<div class="form-group">
+									  	<span>Floor area details</span>
+									    <div class="checkbox">
+									      <label>Option 1<input type="checkbox" value=""></label>
+									    </div>
+									    <div class="checkbox">
+									      <label>Option 2<input type="checkbox" value=""></label>
+									    </div>
+									    <div class="checkbox disabled">
+									      <label>Option 3<input type="checkbox" value=""></label>
+									    </div>
+									 </div>
 
-							  <form>
-							    <div class="form-group">
+
+
+								 <div class="form-group">
 							      <label for="usr">Type of stair handrail</label>
 							      <div class="selectbox-inline">
-							      <select>
-									  <option value="volvo">Choose Type</option>
-									  <option value="saab">test</option>
-									  <option value="mercedes">test</option>
-									  <option value="audi">test</option>
-								  </select>
-								  <select>
-									  <option value="volvo">Quantity</option>
-									  <option value="saab">test</option>
-									  <option value="mercedes">test</option>
-									  <option value="audi">test</option>
-								  </select>
+							      <div class="form-group">
+											<select class="selectpicker" data-live-search="true" title="Choose Type">
+												<option>Choose Type</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+											</select>
+										</div>
+								  <div class="form-group">
+											<select class="selectpicker" data-live-search="true" title="Quantity">
+												<option>Quantity</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+											</select>
+										</div>
 								  </div>
 							    </div>
-							 </form>
 
-							  <form>
-							    <div class="form-group">
+							 
+
+							   <div class="form-group">
 							      <label for="usr">Type of stair door</label>
 							      <div class="selectbox-inline">
-							      <select>
-									  <option value="volvo">Choose Type</option>
-									  <option value="saab">test</option>
-									  <option value="mercedes">test</option>
-									  <option value="audi">test</option>
-								  </select>
-								  <select>
-									  <option value="volvo">Quantity</option>
-									  <option value="saab">test</option>
-									  <option value="mercedes">test</option>
-									  <option value="audi">test</option>
-								  </select>
+							      <div class="form-group">
+											<select class="selectpicker" data-live-search="true" title="Choose Type">
+												<option>Choose Type</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+											</select>
+										</div>
+								  <div class="form-group">
+											<select class="selectpicker" data-live-search="true" title="Quantity">
+												<option>Quantity</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+											</select>
+										</div>
 								  </div>
 							    </div>
-							 </form>
 
-							 <form>
-							    <div class="form-group">
+							 	<div class="form-group">
 							      <label for="usr">Type of windows / ventilator</label>
 							      <div class="selectbox-inline">
-							      <select>
-									  <option value="volvo">Choose Type</option>
-									  <option value="saab">test</option>
-									  <option value="mercedes">test</option>
-									  <option value="audi">test</option>
-								  </select>
-								  <select>
-									  <option value="volvo">Quantity</option>
-									  <option value="saab">test</option>
-									  <option value="mercedes">test</option>
-									  <option value="audi">test</option>
-								  </select>
+							      <div class="form-group">
+											<select class="selectpicker" data-live-search="true" title="Choose Type">
+												<option>Choose Type</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+											</select>
+										</div>
+								  <div class="form-group">
+											<select class="selectpicker" data-live-search="true" title="Quantity">
+												<option>Quantity</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+												<option>test</option>
+											</select>
+										</div>
 								  </div>
 							    </div>
-							 </form>
 
-							 <form>
-							    <div class="form-group">
-							      <label for="usr">Number of toilet + bath + w.c</label>
-							      <input type="text" class="form-control" placeholder="Enter total Number" id="usr">
-							    </div>
-							    <div class="form-group">
-							      <label for="pwd">Quality of Electrical fittings</label>
-							      <input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
-							    </div>
-							    <div class="form-group">
-							      <label for="pwd">Quality of Plumbing and Sabitary material</label>
-							      <input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
-							    </div>
-							    <div class="form-group">
-							      <label for="pwd">Type of painiting</label>
-							      <input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
-							    </div>
-							 </form>
+							    <form>
+								    <div class="form-group">
+								      <label for="usr">Number of toilet + bath + w.c</label>
+								      <input type="text" class="form-control" placeholder="Enter total Number" id="usr">
+								    </div>
+								    <div class="form-group">
+								      <label for="pwd">Quality of Electrical fittings</label>
+								      <input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
+								    </div>
+								    <div class="form-group">
+								      <label for="pwd">Quality of Plumbing and Sabitary material</label>
+								      <input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
+								    </div>
+								    <div class="form-group">
+								      <label for="pwd">Type of painiting</label>
+								      <input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
+								    </div>
+								 </form>
 
 							<div class="container-fluid text-left btn-wrap"> <button type="button" class="btn btn-success">Calculate</button></div>
 						</div>
 					</div>
 					<div id="tab-3" class="tab-content">
+					<div class="container text-center select-box">
+							<ul id="hestimator_select" role="tablist" aria-multiselectable="true" class="col-md-10">
+								<li class="card first_card">
+									<form class="form-inline">
+										<div class="form-group">
+											<select class="selectpicker" data-live-search="true" title="All professionals">
+												<option>All professionals</option>
+												<option>Architects & Building designers</option>
+												<option>Design & build firms</option>
+												<option>Interior designers</option>
+												<option>Freelance professional</option>
+												<option>Landscape designers</option>
+												<option>2D & 3D visualisers</option>
+												<option>Kitchen, bathroom designers</option>
+												<option>Quantity surveyors & Estimators</option>
+												<option>Building contractors</option>
+												<option>General contractors</option>
+												<option>Landscape contractors</option>
+												<option>Artist & Craftsman</option>
+												<option>Land Surveyors</option>
+												<option>MEP Designers </option>
+												<option>Others</option>
+											</select>
+										</div>
+									</form>
+								</li>
+								<li class="card">
+									<form class="form-inline">
+										<div class="form-group">
+											<select class="selectpicker" data-live-search="true" title="All Country">
+												<option>All Country</option>
+												<option>India</option>
+												<option>Oman</option>
+												<option>U.A.E</option>
+												<option>Others</option>
+											</select>
+										</div>
+									</form>
+								</li>
+						</div>
 						<div class="table-wrap">
 							<table class="table">
 							    <thead>
@@ -485,6 +568,8 @@
 									<script src="js/owl.carousel.min.js"></script>
 									<script src="js/jquery.magnific-popup.min.js"></script>
 									<script src="js/video-player.js"></script>
+									<script src="js/bootstrap-multiselect.min.js"></script>
+									<script src="js/bootstrap-multiselect.js"></script>
 									<script>
 										
 										/* Scroll fixed menu */

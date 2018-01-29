@@ -1758,7 +1758,7 @@ footer.style1 .copyright .right {
     margin: 75px auto;
     padding: 0;
     border: 1px solid;
-    border-radius: 5px;
+    padding: 12px 0;
 }
 .compare-wrap a {
     color: #000;
@@ -1829,7 +1829,8 @@ footer.style1 .copyright .right {
 }
 #tab-2 .container-fluid.text-left {
     background: linear-gradient(to right, #d7dfe1 , #f2ebeb);
-    padding: 4vw 10vw;
+    padding: 4vw;
+    max-width: 650px;
 }
 #tab-2 .container-fluid {
     padding: 0;
@@ -1837,6 +1838,10 @@ footer.style1 .copyright .right {
 #tab-2 h1 {
     text-align: center;
     font-size: 30px;
+    margin: 0;
+}
+div#tab-2 {
+    margin: 75px 0 0;
 }
 #tab-2 .container-fluid p {
     margin: 45px 0;
@@ -1845,9 +1850,10 @@ footer.style1 .copyright .right {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
+    width: 100%;
 }
 #tab-2  select {
-	width: 50%;
+	width: 100%;
     background: #fff;
     border: 1px solid #6bb537;
     border-radius: 5px;	
@@ -1880,11 +1886,14 @@ footer.style1 .copyright .right {
     border-bottom-right-radius: 5px;
 }
 #tab-2 .form-control {
-	    height: 30px;
-    width: 50%;
+    height: 45px;
+    width: 100%;
+    border-radius: 0;
 }
 #tab-2 button.btn.btn-success {
     width: 100%;
+    height: 45px;
+    border-radius: 0;
 }
 .hestimator-wrapper {
     margin-bottom: 40px;
@@ -1893,14 +1902,20 @@ footer.style1 .copyright .right {
     padding: 0;
     width: 75%;
 }
-.tabbed_menu{margin-top:30px;background-color: green;padding:30px 0;}
-.hestimator-wrapper .tab-link{position: relative;}
+.tabbed_menu {
+    margin-top: 30px;
+    background-color: green;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 .hestimator-wrapper .tab-link span{color:#fff;margin-top:10px;}
-.hestimator-wrapper .current:after {
+.hestimator-wrapper .tab-link.current:after {
 	width: 0; 
-  height: 0; 
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;border-top: 20px solid green;
+	height: 0; 
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;border-top: 20px solid green;
 	margin-left: -30px;
 	content: " ";
 	position: absolute;
@@ -1908,3 +1923,48 @@ footer.style1 .copyright .right {
 }
 #hestimator_select li.card{width:49%;float:left;}
 #hestimator_select li.first_card{margin-right:2%;}
+.bootstrap-select>.dropdown-toggle.bs-placeholder, 
+.bootstrap-select>.dropdown-toggle.bs-placeholder:active, 
+.bootstrap-select>.dropdown-toggle.bs-placeholder:focus, 
+.bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+    background-color: #fff !important;
+    display: flex;
+    align-items: center;
+
+}
+#tab-2 .selectbox-inline .form-group:first-child {
+    width: 60% ;
+    margin-right: 5px;
+}
+#tab-2 .selectbox-inline .form-group:last-child {
+    width: 40% ;
+}
+.form-inline .form-group {
+    width: 100%;
+}
+ul#hestimator_select {
+    width: 100%;
+}
+.compare-wrap .dropdown-toggle::after {
+	content: none !important;
+}
+
+.compare-wrap input {
+    -webkit-appearance: checkbox;
+}
+.compare-bank {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn-group {
+    width: 100%;
+}
+button.multiselect.dropdown-toggle.btn.btn-default {
+    width: 100%;
+    border: none;
+}
+form.form-inline.select-country {
+    width: 140px;
+}

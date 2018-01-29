@@ -184,6 +184,11 @@ $(document).ready(function() {
         $(this).addClass('current');
         $("#"+tab_id).addClass('current');
     })
+
+      $('#boot-multiselect-demo').multiselect({
+            includeSelectAllOption: true,
+            maxHeight: 200,
+        });
 });
 
 
