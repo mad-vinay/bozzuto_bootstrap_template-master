@@ -177,13 +177,14 @@ $(document).ready(function() {
 
 
     $('#boot-multiselect-demo').multiselect({
+        nonSelectedText:'Select bannk to compare',
         includeSelectAllOption: true,
         maxHeight: 200,
     });
    $("ul.nav-tabs a").click(function (e) {
-  e.preventDefault();  
-    $(this).tab('show');
-});
+      e.preventDefault();  
+        $(this).tab('show');
+    });
 
 });
 

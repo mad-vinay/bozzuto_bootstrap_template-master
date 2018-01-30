@@ -1753,9 +1753,8 @@ footer.style1 .copyright .right {
 .compare-wrap {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: #ddd;
-    margin: 35px 0;
     margin: 50px auto;
     padding: 30px 15px;
     width: 100%;
@@ -1959,14 +1958,30 @@ ul#hestimator_select {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 47%;
+}
+.compare-bank .btn-group {
+    width: 100%;
 }
 button.multiselect.dropdown-toggle.btn.btn-default {
     width: 100%;
     border: none;
+    background: #fff;
+    height: 45px;
+    border-radius: 0;
+    display: flex;
+    justify-content: space-between;
+}
+span.multiselect-selected-text {
+    font-size: 16px;
+    line-height: 1;
+    color: grey;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
 }
 form.form-inline.select-country {
-    width: 50%;
+    width: 47%;
 }
 #hestimator .bootstrap-select .filter-option:after {
     -webkit-transform: rotate(90deg);
@@ -2113,4 +2128,23 @@ span.heading-txt {
     background: #6bb537;
     padding: 15px 30px;
     color: #fff;
+}
+span.multiselect-selected-text:after {
+    content: '\f105';
+    font-family: "fontello";
+    margin-left: 5px;
+    right: 8px;
+    font-size: 20px;
+    top: -2px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: auto;
+    position: absolute;
+    right: 15px;
+}
+button.multiselect.dropdown-toggle.btn.btn-default .caret {
+    display: none;
 }
