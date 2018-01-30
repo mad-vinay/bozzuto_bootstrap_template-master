@@ -71,6 +71,9 @@
 }
 
 @media (max-width: 767px) {
+	.col-lg-3.col-md-4.hidden-sm-down.sidebar-left {
+	    display: none;
+	}
 	.sub32 {
 	    flex-wrap: wrap;
 	}
@@ -417,8 +420,11 @@
 	span.multiselect-selected-text {
 	    font-size: 12px;
 	}
+	.compare-bank {
+	    width: 69%;
+	}
 	form.form-inline.select-country {
-	    width: 110px;
+	    width: 30%;
 	}
 	ul.nav.nav-tabs.compare-here {
 	    font-size: 8px !important;
@@ -426,8 +432,9 @@
 	.sub32>div {
 	    width: 100%;
 	}
-
-}
+	span.multiselect-selected-text:after {
+	    top: 14px;
+	}
 
 @media (max-width: 400px) {
 	
