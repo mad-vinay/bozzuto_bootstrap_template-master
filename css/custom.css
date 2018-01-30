@@ -758,6 +758,7 @@ ul.rating-star li:last-child span {
 }
 #Filter-list {
 	padding: 0;
+    list-style: none;
 }
 #Filter-list .form-inline .form-group {
 	display: block;
@@ -765,12 +766,12 @@ ul.rating-star li:last-child span {
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
 	width: 100%;
 }
-#Filter-list .btn,
-.bootstrap-select .dropdown-toggle:focus,
-.bs-placeholder,
-.card {
+#Filter-list .btn, .bootstrap-select .dropdown-toggle:focus, .bs-placeholder, .card {
     height: 45px;
-	border-radius: 0;
+    border-radius: 0;
+    background: #fff;
+    border: 1px solid #dedede;
+    margin-bottom: 10px;
 }
 .bs-placeholder {
 	border: none !important;
