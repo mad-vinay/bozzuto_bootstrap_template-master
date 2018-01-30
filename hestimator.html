@@ -20,11 +20,11 @@
 		<link href="css/fontello.css" rel="stylesheet">
 		<link href="css/magnific-popup.css" rel="stylesheet">
 		<link href="css/owl.carousel.min.css" rel="stylesheet">
-		<link href="css/responsive.css" rel="stylesheet">
 		<link href="css/video-player.css" rel="stylesheet">
 		<link href="css/animate.css" rel="stylesheet">
-		<link href="css/main-s.css" rel="stylesheet">
 		<link href="css/responsive-s.css" rel="stylesheet">
+		<link href="css/main-s.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
 		<!-- <link href="css/jquery.scrollbar.css" rel="stylesheet"> -->
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,7 +35,7 @@
 	</head>
 	<body>
 		<!-- Login Modal -->
-		<div class="modal fade" id="Login-popup" tabindex="-1" role="dialog" aria-labelledby="Login-popup">
+	<div class="modal fade" id="Login-popup" tabindex="-1" role="dialog" aria-labelledby="Login-popup">
 	  <div class="modal-dialog" role="document">
 		<div class="modal-content">
 		  <div class="modal-header">
@@ -101,7 +101,9 @@
 		  </div><!-- /.container-fluid -->
 	</nav>
 </header>
+
 <div id="hestimator" class="hestimator-wrapper">
+
 				<div class="l-banner">
 					<div class="l-banner-text">
 						<a class="free" href="#"><img src="img/caption-free.svg" alt=""></a>
@@ -118,403 +120,738 @@
 								<span class="title">Calculate.Find.Compare</span>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<div class="tabbed_menu col-md-12">
-								    <div class="col-sm-4">
-								      <div class="cell tab-link current" data-tab="tab-1"><img src="img/pro-green.svg" alt=""><span>Find and compare loans</span></div>
-								    </div>
-								    <div class="col-sm-4"> 
-								     <div class="cell tab-link" data-tab="tab-2"><img src="img/bag-green.svg" alt=""><span> Calculate home estimate</span></div>
-								    </div>
-								    <div class="col-sm-4"> 
-								      <div class="cell tab-link" data-tab="tab-3"><img src="img/library-gree.svg" alt=""><span> Calculate and compare EMI</span></div>
-								    </div>
-								  </div>
-							</div>
-						</div>
-						<div id="tab-1" class="tab-content current">
-						<div class="container text-center compare-wrap">
-							<form class="form-inline select-country">
-								<div class="form-group">
+
+
+
+
+
+
+
+
+
+
+
+
+						<div class="tabbable boxed parentTabs">
+						    <ul class="tabbed_menu nav nav-tabs">
+						        <li class="active"><a href="#set1"><div class="cell tab-link" data-tab="tab-1"><img src="img/pro-green.svg" alt=""><span>Find and compare loans</span></div></a>
+						        </li>
+						        <li><a href="#set2"><div class="cell tab-link" data-tab="tab-2"><img src="img/bag-green.svg" alt=""><span> Calculate home estimate</span></div></a>
+						        </li>
+						        <li><a href="#set3"><div class="cell tab-link" data-tab="tab-3"><img src="img/library-gree.svg" alt=""><span> Calculate and compare EMI</span></div></a>
+						        </li>
+						    </ul>
+						    <div class="tab-content">
+
+						        	<div class="tab-pane fade active in" id="set1">
+									<div class="tabbable">
+									<ul class="nav nav-tabs compare-here">
+									<li class="active"><a href="#sub11">find loans</a>
+									</li>
+									<li><a href="#sub12">compare</a>
+									</li>
+									</ul>
+									<div class="tab-content">
+									<div class="tab-pane fade active in" id="sub11">
+									<div id="tab-1" class="tab-content current">
+									
+									<div class="container text-center select-box">
+									<ul id="hestimator_select" role="tablist" aria-multiselectable="true" class="col-md-10">
+									<li class="card first_card">
+									<form class="form-inline">
+									<div class="form-group">
+									<select class="selectpicker" data-live-search="true" title="India">
+									<option>India</option>
+									<option>Oman</option>
+									<option>U.A.E</option>
+									<option>Others</option>
+									</select>
+									</div>
+									</form>
+									</li>
+									<li class="card">
+									<form class="form-inline">
+									<div class="form-group">
+									<select class="selectpicker" data-live-search="true" title="Bank of Baroda">
+									<option>Test</option>
+									<option>Test</option>
+									<option>Test</option>
+									<option>Test</option>
+									<option>Freelance professional</option>
+									<option>Landscape designers</option>
+									<option>2D & 3D visualisers</option>
+									<option>Kitchen, bathroom designers</option>
+									<option>Quantity surveyors & Estimators</option>
+									<option>Building contractors</option>
+									<option>General contractors</option>
+									<option>Landscape contractors</option>
+									<option>Artist & Craftsman</option>
+									<option>Land Surveyors</option>
+									<option>MEP Designers </option>
+									<option>Others</option>
+									</select>
+									</div>
+									</form>
+									</li>
+									
+									</div>
+									<div class="table-wrap">
+									<table class="table">
+									<thead>
+									<tr>
+									<th>Name of bank</th>
+									<th>Interest rate change</th>
+									<th>category of loans</th>
+									<th>Loan amount limit</th>
+									<th>Tenure of plan</th>
+									<th>Facts & reviews</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+									<td>Bank Name</td>
+									<td>Content</td>
+									<td>Content</td>
+									<td></td>
+									<td></td>
+									<td>Content</td>
+									</tr>
+									</tbody>
+									</table>
+									</div>
+									<div class="table-wrap">
+									<table class="table">
+									<thead>
+									<tr>
+									<th>Name of bank</th>
+									<th>Interest rate change</th>
+									<th>category of loans</th>
+									<th>Loan amount limit</th>
+									<th>Tenure of plan</th>
+									<th>Facts & reviews</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+									<td>Bank Name</td>
+									<td>Content</td>
+									<td>Content</td>
+									<td></td>
+									<td></td>
+									<td>Content</td>
+									</tr>
+									</tbody>
+									</table>
+									</div>
+									<div class="table-wrap">
+									<table class="table">
+									<thead>
+									<tr>
+									<th>Name of bank</th>
+									<th>Interest rate change</th>
+									<th>category of loans</th>
+									<th>Loan amount limit</th>
+									<th>Tenure of plan</th>
+									<th>Facts & reviews</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+									<td>Bank Name</td>
+									<td>Content</td>
+									<td>Content</td>
+									<td></td>
+									<td></td>
+									<td>Content</td>
+									</tr>
+									</tbody>
+									</table>
+									</div>
+									</div>  
+									</div>
+									<div class="tab-pane fade" id="sub12">
+									<div id="tab-1" class="tab-content current">
+									<div class="container text-center compare-wrap">
+									<form class="form-inline select-country">
+									<div class="form-group">
 									<select class="selectpicker" data-live-search="true" title="Select Country">
+									<option>All Country</option>
+									<option>India</option>
+									<option>Oman</option>
+									<option>U.A.E</option>
+									<option>Others</option>
+									</select>
+									</div>
+									</form>
+									<div class="compare-bank">
+									<label for="">Select bank to Compare</label>
+									<select id="boot-multiselect-demo" multiple="multiple">
+									<option value="jQuery">jQuery Tutorials</option>
+									<option value="Bootstrap">Bootstrap Framework</option>
+									<option value="HTML">HTML</option>
+									<option value="CSS" >CSS</option>
+									<option value="Angular">Angular</option>
+									<option value="Java">Java</option>
+									<option value="Python">Python</option>
+									<option value="MySQL">MySQL</option>
+									<option value="Oracle">Oracle</option>
+									</select>
+									</div>
+									</div>
+									
+									<div class="table-wrap">
+									<table class="table">
+									<thead>
+									<tr>
+									<th>Name of bank</th>
+									<th>Interest rate change</th>
+									<th>category of loans</th>
+									<th>Loan amount limit</th>
+									<th>Tenure of plan</th>
+									<th>Facts & reviews</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+									<td>Bank Name</td>
+									<td>Content</td>
+									<td>Content</td>
+									<td></td>
+									<td></td>
+									<td>Content</td>
+									</tr>
+									</tbody>
+									</table>
+									</div>
+									<div class="table-wrap">
+									<table class="table">
+									<thead>
+									<tr>
+									<th>Name of bank</th>
+									<th>Interest rate change</th>
+									<th>category of loans</th>
+									<th>Loan amount limit</th>
+									<th>Tenure of plan</th>
+									<th>Facts & reviews</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+									<td>Bank Name</td>
+									<td>Content</td>
+									<td>Content</td>
+									<td></td>
+									<td></td>
+									<td>Content</td>
+									</tr>
+									</tbody>
+									</table>
+									</div>
+									<div class="table-wrap">
+									<table class="table">
+									<thead>
+									<tr>
+									<th>Name of bank</th>
+									<th>Interest rate change</th>
+									<th>category of loans</th>
+									<th>Loan amount limit</th>
+									<th>Tenure of plan</th>
+									<th>Facts & reviews</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+									<td>Bank Name</td>
+									<td>Content</td>
+									<td>Content</td>
+									<td></td>
+									<td></td>
+									<td>Content</td>
+									</tr>
+									</tbody>
+									</table>
+									</div>
+									</div>  
+									</div>
+									</div>
+									</div>
+									</div>			
+
+
+
+
+
+									<div class="tab-pane fade" id="set2">
+									<!-- <div class="tabbable"> -->
+									<!-- <ul class="nav nav-tabs">
+									<li class="active"><a href="#sub21">Tab 2.1</a>
+									</li>
+									<li><a href="#sub22">Tab 2.2</a>
+									</li>
+									</ul> -->
+									<div class="tab-content">
+									<div id="tab-2" class="tab-content">
+
+									<div class="container-fluid">
+									<h1>Calculate your home estimate.</h1>
+									<p>An uncompromising design for all kind of people. it gives you the power to calculate your own home estimate. It is as beautiful because it is the most advanced in its simple form</p>
+									</div>
+
+									<div class="container-fluid text-left"> 
+									<form class="form-inline">
+									<div class="form-group">
+									<label for="usr">Country where home is preposed</label>
+									<div class="form-group">
+									<select class="selectpicker" data-live-search="true" title="Country">
 										<option>All Country</option>
 										<option>India</option>
 										<option>Oman</option>
 										<option>U.A.E</option>
 										<option>Others</option>
 									</select>
-								</div>
-							</form>
-						     <div class="compare-bank">
-							    <label for="">Select bank to Compare</label>
-							     <select id="boot-multiselect-demo" multiple="multiple">
-							            <option value="jQuery">jQuery Tutorials</option>
-							            <option value="Bootstrap">Bootstrap Framework</option>
-							            <option value="HTML">HTML</option>
-							            <option value="CSS" >CSS</option>
-							            <option value="Angular">Angular</option>
-							            <option value="Java">Java</option>
-							            <option value="Python">Python</option>
-							            <option value="MySQL">MySQL</option>
-							            <option value="Oracle">Oracle</option>
-							    </select>
-							</div>
-						</div>
-						<div class="container text-center select-box">
-							<ul id="hestimator_select" role="tablist" aria-multiselectable="true" class="col-md-10">
-								<li class="card first_card">
+									</div>
+									</div>
+									</form>
+
 									<form class="form-inline">
-										<div class="form-group">
-											<select class="selectpicker" data-live-search="true" title="All professionals">
-												<option>All professionals</option>
-												<option>Architects & Building designers</option>
-												<option>Design & build firms</option>
-												<option>Interior designers</option>
-												<option>Freelance professional</option>
-												<option>Landscape designers</option>
-												<option>2D & 3D visualisers</option>
-												<option>Kitchen, bathroom designers</option>
-												<option>Quantity surveyors & Estimators</option>
-												<option>Building contractors</option>
-												<option>General contractors</option>
-												<option>Landscape contractors</option>
-												<option>Artist & Craftsman</option>
-												<option>Land Surveyors</option>
-												<option>MEP Designers </option>
-												<option>Others</option>
-											</select>
-										</div>
+									<div class="form-group">
+									<label for="usr">Select the Unit</label>
+									<select class="selectpicker" data-live-search="true" title="Unit">
+										<option>Unit</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+									</select>
+									</div>
 									</form>
-								</li>
-								<li class="card">
-									<form class="form-inline">
-										<div class="form-group">
-											<select class="selectpicker" data-live-search="true" title="All Country">
-												<option>All Country</option>
-												<option>India</option>
-												<option>Oman</option>
-												<option>U.A.E</option>
-												<option>Others</option>
-											</select>
-										</div>
+
+									<div class="form-group">
+									<span>Floor area details</span>
+									<div class="checkbox">
+									<label>Option 1<input type="checkbox" value=""></label>
+									</div>
+									<div class="checkbox">
+									<label>Option 2<input type="checkbox" value=""></label>
+									</div>
+									<div class="checkbox disabled">
+									<label>Option 3<input type="checkbox" value=""></label>
+									</div>
+									</div>
+
+
+
+									<div class="form-group">
+									<label for="usr">Type of stair handrail</label>
+									<div class="selectbox-inline">
+									<div class="form-group">
+									<select class="selectpicker" data-live-search="true" title="Choose Type">
+										<option>Choose Type</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+									</select>
+									</div>
+									<div class="form-group">
+									<select class="selectpicker" data-live-search="true" title="Quantity">
+										<option>Quantity</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+									</select>
+									</div>
+									</div>
+									</div>
+
+
+
+									<div class="form-group">
+									<label for="usr">Type of stair door</label>
+									<div class="selectbox-inline">
+									<div class="form-group">
+									<select class="selectpicker" data-live-search="true" title="Choose Type">
+										<option>Choose Type</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+									</select>
+									</div>
+									<div class="form-group">
+									<select class="selectpicker" data-live-search="true" title="Quantity">
+										<option>Quantity</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+									</select>
+									</div>
+									</div>
+									</div>
+
+									<div class="form-group">
+									<label for="usr">Type of windows / ventilator</label>
+									<div class="selectbox-inline">
+									<div class="form-group">
+									<select class="selectpicker" data-live-search="true" title="Choose Type">
+										<option>Choose Type</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+									</select>
+									</div>
+									<div class="form-group">
+									<select class="selectpicker" data-live-search="true" title="Quantity">
+										<option>Quantity</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+										<option>test</option>
+									</select>
+									</div>
+									</div>
+									</div>
+
+									<form>
+									<div class="form-group">
+									<label for="usr">Number of toilet + bath + w.c</label>
+									<input type="text" class="form-control" placeholder="Enter total Number" id="usr">
+									</div>
+									<div class="form-group">
+									<label for="pwd">Quality of Electrical fittings</label>
+									<input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
+									</div>
+									<div class="form-group">
+									<label for="pwd">Quality of Plumbing and Sabitary material</label>
+									<input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
+									</div>
+									<div class="form-group">
+									<label for="pwd">Type of painiting</label>
+									<input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
+									</div>
 									</form>
-								</li>
+
+									<div class="container-fluid text-left btn-wrap"> <button type="button" class="btn btn-success">Calculate</button></div>
+									</div>
+									</div>
+									</div>
+									</div>
+
+
+
+
+									<div class="tab-pane fade" id="set3">
+							            <div class="tabbable">
+							                <ul class="nav nav-tabs compare-here">
+												<li class="active"><a href="#sub31">Calculate</a></li>
+												<li><a href="#sub32">compare</a></li>
+											</ul>
+							                <div class="tab-content">
+							                    <div class="tab-pane fade active in" id="sub31">
+							                    <div class="sub31">
+							                    	<div>
+								                        <h1>Know your home loan detail with a calculator</h1>
+								                        <p>We design this calculator to enable all category of people to calculate and know the detail by themselves.
+								                        It also make it easy to get the result by filling a simple form. A priceless result from beautifully simple.</p>
+													</div>
+							                        <div class="container-fluid text-left"> 
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Country where home is preposed</label>
+														<div class="form-group">
+														<select class="selectpicker" data-live-search="true" title="Country">
+															<option>All Country</option>
+															<option>India</option>
+															<option>Oman</option>
+															<option>U.A.E</option>
+															<option>Others</option>
+														</select>
+														</div>
+														</div>
+														</form>
+
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Select Bank</label>
+														<select class="selectpicker" data-live-search="true" title="Select Bank">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Select Category</label>
+														<select class="selectpicker" data-live-search="true" title="Select Category">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Loan amount</label>
+														<select class="selectpicker" data-live-search="true" title="Loan amount">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form>
+															<div class="form-group">
+															<label for="usr">Your loan amount</label>
+															<input type="text" class="form-control" placeholder="Enter amount" id="usr">
+															</div>
+															<div class="form-group">
+															<label for="usr">Tenure of Loan</label>
+															<input type="text" class="form-control" placeholder="Enter duration" id="usr">
+															</div>
+															<div class="form-group">
+															<label for="usr">Rate of interest</label>
+															<input type="text" class="form-control" placeholder="Interest" id="usr">
+															</div>
+														</form>
+														<div class="find-and-choose">
+															<a href="" title="">Calculate</a>
+														</div>
+													</div>
+							                    </div>
+							                    </div>
+							                    <div class="tab-pane fade" id="sub32">
+													<div class="sub32">
+													<div class="container-fluid text-left"> 
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Country where home is preposed</label>
+														<div class="form-group">
+														<select class="selectpicker" data-live-search="true" title="Country">
+															<option>All Country</option>
+															<option>India</option>
+															<option>Oman</option>
+															<option>U.A.E</option>
+															<option>Others</option>
+														</select>
+														</div>
+														</div>
+														</form>
+
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Select Bank</label>
+														<select class="selectpicker" data-live-search="true" title="Select Bank">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Select Category</label>
+														<select class="selectpicker" data-live-search="true" title="Select Category">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Loan amount</label>
+														<select class="selectpicker" data-live-search="true" title="Loan amount">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form>
+															<div class="form-group">
+															<label for="usr">Your loan amount</label>
+															<input type="text" class="form-control" placeholder="Enter amount" id="usr">
+															</div>
+															<div class="form-group">
+															<label for="usr">Tenure of Loan</label>
+															<input type="text" class="form-control" placeholder="Enter duration" id="usr">
+															</div>
+															<div class="form-group">
+															<label for="usr">Rate of interest</label>
+															<input type="text" class="form-control" placeholder="Interest" id="usr">
+															</div>
+														</form>
+													</div>
+													<div class="container-fluid text-left"> 
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Country where home is preposed</label>
+														<div class="form-group">
+														<select class="selectpicker" data-live-search="true" title="Country">
+															<option>All Country</option>
+															<option>India</option>
+															<option>Oman</option>
+															<option>U.A.E</option>
+															<option>Others</option>
+														</select>
+														</div>
+														</div>
+														</form>
+
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Select Bank</label>
+														<select class="selectpicker" data-live-search="true" title="Select Bank">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Select Category</label>
+														<select class="selectpicker" data-live-search="true" title="Select Category">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Loan amount</label>
+														<select class="selectpicker" data-live-search="true" title="Loan amount">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form>
+															<div class="form-group">
+															<label for="usr">Your loan amount</label>
+															<input type="text" class="form-control" placeholder="Enter amount" id="usr">
+															</div>
+															<div class="form-group">
+															<label for="usr">Tenure of Loan</label>
+															<input type="text" class="form-control" placeholder="Enter duration" id="usr">
+															</div>
+															<div class="form-group">
+															<label for="usr">Rate of interest</label>
+															<input type="text" class="form-control" placeholder="Interest" id="usr">
+															</div>
+														</form>
+													</div>
+													<div class="container-fluid text-left"> 
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Country where home is preposed</label>
+														<div class="form-group">
+														<select class="selectpicker" data-live-search="true" title="Country">
+															<option>All Country</option>
+															<option>India</option>
+															<option>Oman</option>
+															<option>U.A.E</option>
+															<option>Others</option>
+														</select>
+														</div>
+														</div>
+														</form>
+
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Select Bank</label>
+														<select class="selectpicker" data-live-search="true" title="Select Bank">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Select Category</label>
+														<select class="selectpicker" data-live-search="true" title="Select Category">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form class="form-inline">
+														<div class="form-group">
+														<label for="usr">Loan amount</label>
+														<select class="selectpicker" data-live-search="true" title="Loan amount">
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+															<option>test</option>
+														</select>
+														</div>
+														</form>
+														<form>
+															<div class="form-group">
+															<label for="usr">Your loan amount</label>
+															<input type="text" class="form-control" placeholder="Enter amount" id="usr">
+															</div>
+															<div class="form-group">
+															<label for="usr">Tenure of Loan</label>
+															<input type="text" class="form-control" placeholder="Enter duration" id="usr">
+															</div>
+															<div class="form-group">
+															<label for="usr">Rate of interest</label>
+															<input type="text" class="form-control" placeholder="Interest" id="usr">
+															</div>
+														</form>
+													</div>
+													<div class="find-and-choose-here">
+														<div><h2><span>h</span>estimator</h2></div>
+														<span class="heading-txt">Find and choose yourself</span>
+														<a href="" title="">compare</a>
+													</div>
+													</div>
+							                    </div>
+							                </div>
+							            </div>
+							        </div>
+									
+						            <!-- </div> -->
+						     </div>
 						</div>
-						<div class="table-wrap">
-							<table class="table">
-							    <thead>
-								      <tr>
-								        <th>Name of bank</th>
-								        <th>Interest rate change</th>
-								        <th>category of loans</th>
-								        <th>Loan amount limit</th>
-								        <th>Tenure of plan</th>
-								        <th>Facts & reviews</th>
-								      </tr>
-							    </thead>
-							    <tbody>
-								      <tr>
-								        <td>Bank Name</td>
-								        <td>Content</td>
-								        <td>Content</td>
-								        <td></td>
-								        <td></td>
-								        <td>Content</td>
-								      </tr>
-							    </tbody>
-							  </table>
-						  </div>
-						  <div class="table-wrap">
-							<table class="table">
-							    <thead>
-								      <tr>
-								        <th>Name of bank</th>
-								        <th>Interest rate change</th>
-								        <th>category of loans</th>
-								        <th>Loan amount limit</th>
-								        <th>Tenure of plan</th>
-								        <th>Facts & reviews</th>
-								      </tr>
-							    </thead>
-							    <tbody>
-								      <tr>
-								        <td>Bank Name</td>
-								        <td>Content</td>
-								        <td>Content</td>
-								        <td></td>
-								        <td></td>
-								        <td>Content</td>
-								      </tr>
-							    </tbody>
-							  </table>
-						  </div>
-						  <div class="table-wrap">
-							<table class="table">
-							    <thead>
-								      <tr>
-								        <th>Name of bank</th>
-								        <th>Interest rate change</th>
-								        <th>category of loans</th>
-								        <th>Loan amount limit</th>
-								        <th>Tenure of plan</th>
-								        <th>Facts & reviews</th>
-								      </tr>
-							    </thead>
-							    <tbody>
-								      <tr>
-								        <td>Bank Name</td>
-								        <td>Content</td>
-								        <td>Content</td>
-								        <td></td>
-								        <td></td>
-								        <td>Content</td>
-								      </tr>
-							    </tbody>
-							  </table>
-						  </div>
-						  
 					</div>
-					<div id="tab-2" class="tab-content">
-						<div class="container-fluid">
-							<h1>Calculate your home estimate.</h1>
-							<p>An uncompromising design for all kind of people. it gives you the power to calculate your own home estimate. It is as beautiful because it is the most advanced in its simple form</p>
-						</div>
-						
-						<div class="container-fluid text-left"> 
-							<form class="form-inline">
-										<div class="form-group">
-										<label for="usr">Country where home is preposed</label>
-											<div class="form-group">
-											<select class="selectpicker" data-live-search="true" title="Country">
-												<option>All Country</option>
-												<option>India</option>
-												<option>Oman</option>
-												<option>U.A.E</option>
-												<option>Others</option>
-											</select>
-										</div>
-										</div>
-									</form>
 
-							 <form class="form-inline">
-										<div class="form-group">
-										<label for="usr">Select the Unit</label>
-											<select class="selectpicker" data-live-search="true" title="Unit">
-												<option>Unit</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-											</select>
-										</div>
-									</form>
-
-							  		<div class="form-group">
-									  	<span>Floor area details</span>
-									    <div class="checkbox">
-									      <label>Option 1<input type="checkbox" value=""></label>
-									    </div>
-									    <div class="checkbox">
-									      <label>Option 2<input type="checkbox" value=""></label>
-									    </div>
-									    <div class="checkbox disabled">
-									      <label>Option 3<input type="checkbox" value=""></label>
-									    </div>
-									 </div>
-
-
-
-								 <div class="form-group">
-							      <label for="usr">Type of stair handrail</label>
-							      <div class="selectbox-inline">
-							      <div class="form-group">
-											<select class="selectpicker" data-live-search="true" title="Choose Type">
-												<option>Choose Type</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-											</select>
-										</div>
-								  <div class="form-group">
-											<select class="selectpicker" data-live-search="true" title="Quantity">
-												<option>Quantity</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-											</select>
-										</div>
-								  </div>
-							    </div>
-
-							 
-
-							   <div class="form-group">
-							      <label for="usr">Type of stair door</label>
-							      <div class="selectbox-inline">
-							      <div class="form-group">
-											<select class="selectpicker" data-live-search="true" title="Choose Type">
-												<option>Choose Type</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-											</select>
-										</div>
-								  <div class="form-group">
-											<select class="selectpicker" data-live-search="true" title="Quantity">
-												<option>Quantity</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-											</select>
-										</div>
-								  </div>
-							    </div>
-
-							 	<div class="form-group">
-							      <label for="usr">Type of windows / ventilator</label>
-							      <div class="selectbox-inline">
-							      <div class="form-group">
-											<select class="selectpicker" data-live-search="true" title="Choose Type">
-												<option>Choose Type</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-											</select>
-										</div>
-								  <div class="form-group">
-											<select class="selectpicker" data-live-search="true" title="Quantity">
-												<option>Quantity</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-												<option>test</option>
-											</select>
-										</div>
-								  </div>
-							    </div>
-
-							    <form>
-								    <div class="form-group">
-								      <label for="usr">Number of toilet + bath + w.c</label>
-								      <input type="text" class="form-control" placeholder="Enter total Number" id="usr">
-								    </div>
-								    <div class="form-group">
-								      <label for="pwd">Quality of Electrical fittings</label>
-								      <input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
-								    </div>
-								    <div class="form-group">
-								      <label for="pwd">Quality of Plumbing and Sabitary material</label>
-								      <input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
-								    </div>
-								    <div class="form-group">
-								      <label for="pwd">Type of painiting</label>
-								      <input type="password" class="form-control" placeholder="Choose Quantity" id="pwd">
-								    </div>
-								 </form>
-
-							<div class="container-fluid text-left btn-wrap"> <button type="button" class="btn btn-success">Calculate</button></div>
-						</div>
-					</div>
-					<div id="tab-3" class="tab-content">
-					<div class="container text-center select-box">
-							<ul id="hestimator_select" role="tablist" aria-multiselectable="true" class="col-md-10">
-								<li class="card first_card">
-									<form class="form-inline">
-										<div class="form-group">
-											<select class="selectpicker" data-live-search="true" title="All professionals">
-												<option>All professionals</option>
-												<option>Architects & Building designers</option>
-												<option>Design & build firms</option>
-												<option>Interior designers</option>
-												<option>Freelance professional</option>
-												<option>Landscape designers</option>
-												<option>2D & 3D visualisers</option>
-												<option>Kitchen, bathroom designers</option>
-												<option>Quantity surveyors & Estimators</option>
-												<option>Building contractors</option>
-												<option>General contractors</option>
-												<option>Landscape contractors</option>
-												<option>Artist & Craftsman</option>
-												<option>Land Surveyors</option>
-												<option>MEP Designers </option>
-												<option>Others</option>
-											</select>
-										</div>
-									</form>
-								</li>
-								<li class="card">
-									<form class="form-inline">
-										<div class="form-group">
-											<select class="selectpicker" data-live-search="true" title="All Country">
-												<option>All Country</option>
-												<option>India</option>
-												<option>Oman</option>
-												<option>U.A.E</option>
-												<option>Others</option>
-											</select>
-										</div>
-									</form>
-								</li>
-						</div>
-						<div class="table-wrap">
-							<table class="table">
-							    <thead>
-								      <tr>
-								        <th>Name of bank</th>
-								        <th>Interest rate change</th>
-								        <th>category of loans</th>
-								        <th>Loan amount limit</th>
-								        <th>Tenure of plan</th>
-								        <th>Facts & reviews</th>
-								      </tr>
-							    </thead>
-							    <tbody>
-								      <tr>
-								        <td>Bank Name</td>
-								        <td>Content</td>
-								        <td>Content</td>
-								        <td></td>
-								        <td></td>
-								        <td>Content</td>
-								      </tr>
-							    </tbody>
-							  </table>
-						  </div>
-						  <div class="table-wrap">
-							<table class="table">
-							    <thead>
-								      <tr>
-								        <th>Name of bank</th>
-								        <th>Interest rate change</th>
-								        <th>category of loans</th>
-								        <th>Loan amount limit</th>
-								        <th>Tenure of plan</th>
-								        <th>Facts & reviews</th>
-								      </tr>
-							    </thead>
-							    <tbody>
-								      <tr>
-								        <td>Bank Name</td>
-								        <td>Content</td>
-								        <td>Content</td>
-								        <td></td>
-								        <td></td>
-								        <td>Content</td>
-								      </tr>
-							    </tbody>
-							  </table>
-						  </div>
-					</div>
-					</div>
+				</div>
 					
-									</div>
-									</div>
+</div>
+<!-- 
 		<div class="mobile-footer visible-xs"> 
 			<div class="container-fluid">
 			<div class="row">
@@ -559,12 +896,12 @@
 					<div class="item"><p>Rooom text</p><img src="img/footer-slide-01.jpg" alt=""/></div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 									
 									<script src="js/jquery.min.js"></script>
+									<script src="js/bootstrap.min.js"></script>
 									<script src="js/bootstrap-select.min.js"></script>
 									<script src="js/tether.min.js"></script>
-									<script src="js/bootstrap.min.js"></script>
 									<script src="js/owl.carousel.min.js"></script>
 									<script src="js/jquery.magnific-popup.min.js"></script>
 									<script src="js/video-player.js"></script>

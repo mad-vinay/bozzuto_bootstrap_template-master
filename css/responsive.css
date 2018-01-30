@@ -71,7 +71,19 @@
 }
 
 @media (max-width: 767px) {
-	
+	.sub32 {
+	    flex-wrap: wrap;
+	}
+	.sub32>div {
+	    width: 50%;
+	    border: 1px solid #6bb537;
+	}
+	div.sub31 {
+	    justify-content: center;
+	}
+	div.sub31 > div {
+	    width: 100%;
+	}
 	.form-head {
 		padding: 20px;
 	}
@@ -401,13 +413,19 @@
 	}
 	.compare-bank label {
     font-size: 12px;
-}
-span.multiselect-selected-text {
-    font-size: 12px;
-}
-form.form-inline.select-country {
-    width: 110px;
-}
+	}
+	span.multiselect-selected-text {
+	    font-size: 12px;
+	}
+	form.form-inline.select-country {
+	    width: 110px;
+	}
+	ul.nav.nav-tabs.compare-here {
+	    font-size: 8px !important;
+	}
+	.sub32>div {
+	    width: 100%;
+	}
 
 }
 

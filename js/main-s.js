@@ -174,21 +174,17 @@ $(document).ready(function() {
        // on blur, if there is no value, set the defaultText
        if ($(this).val()=='') $(this).val($(this).data('defaultText')); 
    });
-    
-    $('.hestimator-wrapper .cell').click(function(){
-        var tab_id = $(this).attr('data-tab');
 
-        $('.hestimator-wrapper .cell').removeClass('current');
-        $('.tab-content').removeClass('current');
 
-        $(this).addClass('current');
-        $("#"+tab_id).addClass('current');
-    })
+    $('#boot-multiselect-demo').multiselect({
+        includeSelectAllOption: true,
+        maxHeight: 200,
+    });
+   $("ul.nav-tabs a").click(function (e) {
+  e.preventDefault();  
+    $(this).tab('show');
+});
 
-      $('#boot-multiselect-demo').multiselect({
-            includeSelectAllOption: true,
-            maxHeight: 200,
-        });
 });
 
 

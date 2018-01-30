@@ -1753,12 +1753,12 @@ footer.style1 .copyright .right {
 .compare-wrap {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 450px;
-    margin: 75px auto;
-    padding: 0;
-    border: 1px solid;
-    padding: 12px 0;
+    justify-content: center;
+    background: #ddd;
+    margin: 35px 0;
+    margin: 50px auto;
+    padding: 30px 15px;
+    width: 100%;
 }
 .compare-wrap a {
     color: #000;
@@ -1766,7 +1766,6 @@ footer.style1 .copyright .right {
     font-weight: 600;
 }
 .tab-content{
-	display: none;
 	background: #ededed;
 }
 .tab-content.current{
@@ -1776,7 +1775,7 @@ footer.style1 .copyright .right {
     border-radius: 50%;
 }
 .hestimator-wrapper .tab-content {
-	background: transparent;
+	background: #fff;
 }
 .hestimator-wrapper tbody {
     background: #ededed;
@@ -1817,6 +1816,7 @@ footer.style1 .copyright .right {
     margin: 35px 0;
     margin: 50px auto;
     padding: 30px 0;
+    width: 100%;
 }
 .select-box select {
     width: 250px;
@@ -1911,7 +1911,7 @@ div#tab-2 {
     flex-direction: row;
 }
 .hestimator-wrapper .tab-link span{color:#fff;margin-top:10px;}
-.hestimator-wrapper .tab-link.current:after {
+.hestimator-wrapper .tabbed_menu .active:after {
 	width: 0; 
 	height: 0; 
 	border-left: 30px solid transparent;
@@ -1919,7 +1919,7 @@ div#tab-2 {
 	margin-left: -30px;
 	content: " ";
 	position: absolute;
-	pointer-events: none;bottom:-50px;left:50%;
+	pointer-events: none;bottom:-49px;left:50%;
 }
 #hestimator_select li.card{width:49%;float:left;}
 #hestimator_select li.first_card{margin-right:2%;}
@@ -1940,11 +1940,12 @@ div#tab-2 {
     width: 40% ;
 }
 .form-inline .form-group {
-    width: 140px;
+    width: 100%;
     margin: 0 auto;
 }
 ul#hestimator_select {
     width: 100%;
+    list-style: none;
 }
 .compare-wrap .dropdown-toggle::after {
 	content: none !important;
@@ -1960,13 +1961,156 @@ ul#hestimator_select {
     justify-content: center;
     width: 50%;
 }
-.btn-group {
-    width: 100%;
-}
 button.multiselect.dropdown-toggle.btn.btn-default {
     width: 100%;
     border: none;
 }
 form.form-inline.select-country {
     width: 50%;
+}
+#hestimator .bootstrap-select .filter-option:after {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: auto;
+}
+#hestimator .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hestimator ul.tab li a:focus,#hestimator  .active {
+    background-color: transparent;
+}
+#hestimator .nav-tabs > li.active > a,
+#hestimator .nav-tabs > li.active > a:hover,
+#hestimator .nav-tabs > li.active > a:focus {
+    background-color: transparent;
+}
+.tabbed_menu.nav-tabs > li.active > a,
+.tabbed_menu.nav-tabs > li.active > a:hover,
+.tabbed_menu.nav-tabs > li.active > a:focus {
+    background-color: green;
+    border: none;
+}
+#hestimator .tabbed_menu ul.tab li a:focus,#hestimator .tabbed_menu  .active {
+    background-color: green;
+    border: none;
+}
+.tabbed_menu.nav > li > a:hover, 
+.tabbed_menu.nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    border-color: green;
+}
+ul.nav.nav-tabs.compare-here {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 50px 0;
+    border: none;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+ul.nav.nav-tabs.compare-here li {
+    width: 50%;
+    text-align: center;
+}
+ul.nav.nav-tabs.compare-here li a {
+    color: #555151;
+}
+ul.nav.nav-tabs.compare-here > li > a:hover {
+    border-color: #eee #eee #ddd;
+}
+ul.nav.nav-tabs.compare-here > li > a {
+    border-color: #eee #eee #ddd;
+    border-radius: 0;
+}
+ul.nav.nav-tabs.compare-here > li.active > a {
+    border: 2px solid #6bb537;
+}
+#hestimator .btn-default:hover {
+    background-color: #fff;
+}
+.compare-bank label {
+    font-size: 16px;
+    font-weight: normal;
+}
+div.sub31 {
+    display: flex;
+    justify-content: center;
+}
+div.sub31 > div {
+    width: 50%;
+    padding: 30px;
+}
+.sub31 .container-fluid.text-left {
+    border: 1px solid #6bb537;
+    background: #f9f9f9;
+}
+div.sub31 > div:first-child {
+    padding-top: 0;
+}
+div.sub31 > div:first-child h1 {
+    margin-bottom: 50px;
+}
+div.sub31 form.form-inline {
+    margin-bottom: 20px;
+}
+div.sub31 .bootstrap-select>.dropdown-toggle.bs-placeholder {
+    background: #dddddd !important
+
+}
+div.sub31 .form-control {
+	height: 45px;
+	border-radius: 0;
+	background: #dddddd !important;
+	border: none;
+}
+.find-and-choose {
+    background: #6bb537;
+    color: #000;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.find-and-choose a {
+    color: #fff;
+}
+.sub32>div {
+    width: 25%;
+    border: 1px solid #6bb537;
+    padding: 15px;
+    border-right: 0;
+}
+.sub32 {
+    display: flex;
+}
+.sub32>div.find-and-choose-here {
+    border-right: 1px solid #6bb537;
+}
+#hestimator .sub32>div.find-and-choose-here h2,
+#hestimator .sub32>div.find-and-choose-here h2 span{
+    font-size: 30px;
+}
+.find-and-choose-here {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+span.heading-txt {
+    color: #6bb537;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+}
+.find-and-choose-here a {
+    background: #6bb537;
+    padding: 15px 30px;
+    color: #fff;
 }
