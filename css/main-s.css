@@ -1929,7 +1929,7 @@ div#tab-2 {
     background-color: #fff !important;
     display: flex;
     align-items: center;
-
+	margin: 0;
 }
 #tab-2 .selectbox-inline .form-group:first-child {
     width: 60% ;
