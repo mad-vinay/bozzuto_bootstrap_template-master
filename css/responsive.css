@@ -79,7 +79,7 @@
 	    border: 1px solid #6bb537;
 	}
 	div.sub31 {
-	    justify-content: center;
+	        flex-direction: column;
 	}
 	div.sub31 > div {
 	    width: 100%;
