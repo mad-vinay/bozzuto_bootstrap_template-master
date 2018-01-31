@@ -2148,3 +2148,9 @@ span.multiselect-selected-text:after {
 button.multiselect.dropdown-toggle.btn.btn-default .caret {
     display: none;
 }
+ul#hestimator_select button.btn.dropdown-toggle.btn-default {
+    height: 45px;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+}
