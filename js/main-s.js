@@ -186,6 +186,15 @@ $(document).ready(function() {
         $(this).tab('show');
     });
 
+    $('.multiselect-container input').change(function(){
+        var count = $( "ul.multiselect-container.dropdown-menu li.active" ).length;
+        if(count > 0) {
+            $( "ul.multiselect-container.dropdown-menu li" ).closest( ".btn-group" ).addClass("checked");
+        } else {
+            $( "ul.multiselect-container.dropdown-menu li" ).closest( ".btn-group" ).removeClass("checked");
+        }
+    });
+
 });
 
 
