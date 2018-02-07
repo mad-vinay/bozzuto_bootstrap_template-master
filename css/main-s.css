@@ -2203,6 +2203,6 @@ a[href="#set2"].active-li .img-container{
 a[href="#set3"].active-li .img-container{
     background-image: url(../img/hestimator-icon2g.svg);
 }
-li.active .cell span {
+.active-li .cell span {
     font-weight: bold;
 }
