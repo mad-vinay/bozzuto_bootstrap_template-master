@@ -2157,7 +2157,10 @@ span.multiselect-selected-text:after {
 button.multiselect.dropdown-toggle.btn.btn-default .caret {
     display: none;
 }
-
 div#tab-1 form.form-inline.select-country {
     margin: 0;
+}
+ul#hestimator_select,
+#hestimator_select li.card {
+	margin-bottom: 0;
 }
