@@ -177,7 +177,7 @@ $(document).ready(function() {
 
 
     $('#boot-multiselect-demo').multiselect({
-        nonSelectedText:'Select bannk to compare',
+        nonSelectedText:'Select bank to compare',
         includeSelectAllOption: true,
         maxHeight: 200,
     });

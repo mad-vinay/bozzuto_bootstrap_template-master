@@ -766,12 +766,14 @@ ul.rating-star li:last-child span {
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
 	width: 100%;
 }
-#Filter-list .btn, .bootstrap-select .dropdown-toggle:focus, .bs-placeholder, .card {
+#Filter-list .btn, .bootstrap-select .dropdown-toggle:focus, .bs-placeholder, .card , div#hestimator .btn-default{
     height: 45px;
     border-radius: 0;
     background: #fff;
-    border: 1px solid #dedede;
-    margin-bottom: 10px;
+    border: none !important;
+}
+#Filter-list .btn, div#hestimator .btn-default{
+    border: 1px solid #dedede !important;
 }
 .bs-placeholder {
 	border: none !important;
@@ -779,7 +781,7 @@ ul.rating-star li:last-child span {
 .bootstrap-select .dropdown-toggle:focus,
 .bs-placeholder,
 .bs-placeholder:focus {
-	background: transparent !important;
+	background: #fff !important;
 	box-shadow: none !important;
 }
 .left-sec {
