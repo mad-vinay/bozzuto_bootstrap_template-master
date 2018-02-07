@@ -71,6 +71,10 @@
 }
 
 @media (max-width: 767px) {
+	#tab-2 h1,
+	.sub31 h1{
+	    font-size: 20px;
+   	}
 	.col-lg-3.col-md-4.hidden-sm-down.sidebar-left {
 	    display: none;
 	}
@@ -376,7 +380,13 @@
 }
 
 @media (max-width: 520px) {
-	
+	ul.nav.nav-tabs.compare-here li {
+	    width:50%;
+	}
+	.sub32 .find-and-choose {
+	    margin-top: 20px;
+	    margin-bottom: 30px;
+	}
 	.form-container .checkbox-grp {
 		width: 50%;
 	}

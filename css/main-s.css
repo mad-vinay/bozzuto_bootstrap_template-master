@@ -1892,6 +1892,7 @@ div#tab-2 {
     height: 45px;
     width: 100%;
     border-radius: 0;
+    border: 1px solid #dedede !important;
 }
 #tab-2 button.btn.btn-success {
     width: 100%;
@@ -1901,10 +1902,11 @@ div#tab-2 {
 .hestimator-wrapper {
     padding-bottom: 40px;
     background: #fff;
+    height: 100%;
 }
 #tab-2 .container-fluid.text-left.btn-wrap {
     padding: 0;
-    width: 75%;
+    width: 100%;
     margin-top: 4vw;
     box-shadow: none;
 }
@@ -1913,14 +1915,14 @@ div#tab-2 {
 }
 .tabbed_menu {
     margin-top: 30px;
-    background-color: green;
-    padding: 30px 0;
+/*    background-color: green;
+*/    padding: 30px 0;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
-.hestimator-wrapper .tab-link span{color:#fff;margin-top:10px;}
-.hestimator-wrapper .tabbed_menu .active:after {
+.hestimator-wrapper .tab-link span{color:#000;margin-top:10px;}
+/*.hestimator-wrapper .tabbed_menu .active-li:after {
 	width: 0; 
 	height: 0; 
 	border-left: 30px solid transparent;
@@ -1929,7 +1931,7 @@ div#tab-2 {
 	content: " ";
 	position: absolute;
 	pointer-events: none;bottom:-49px;left:50%;
-}
+}*/
 #hestimator_select li.card{width:49%;float:left;}
 #hestimator_select li.first_card{margin-right:2%;}
 .bootstrap-select>.dropdown-toggle.bs-placeholder, 
@@ -2020,15 +2022,18 @@ form.form-inline.select-country {
     background-color: green;
     border: none;
 }
-#hestimator .tabbed_menu ul.tab li a:focus,#hestimator .tabbed_menu  .active {
-    background-color: green;
+#hestimator .tabbed_menu ul.tab li a:focus, #hestimator .tabbed_menu  .active, #hestimator .nav-tabs {
+    /*background-color: green;*/
     border: none;
+}
+body.hestimator {
+    height: calc(100vh - 45px);
 }
 .tabbed_menu.nav > li > a:hover, 
 .tabbed_menu.nav > li > a:focus {
     text-decoration: none;
     background-color: transparent;
-    border-color: green;
+    border-color: #fff;
 }
 ul.nav.nav-tabs.compare-here {
     display: flex;
@@ -2042,7 +2047,7 @@ ul.nav.nav-tabs.compare-here {
     font-weight: 600;
 }
 ul.nav.nav-tabs.compare-here li {
-    width: 50%;
+    width: 30%;
     text-align: center;
 }
 ul.nav.nav-tabs.compare-here li a {
@@ -2084,12 +2089,19 @@ div.sub31 > div:first-child h1 {
     margin-bottom: 50px;
 }
 .find-and-choose {
-    background: #6bb537;
-    color: #000;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
     margin-top: 30px;
+    width: 100%;
+    height: 45px;
+    border-radius: 0;
+    background: #69b429;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-transform: capitalize;
 }
 .find-and-choose a {
     color: #fff;
@@ -2121,11 +2133,6 @@ span.heading-txt {
     font-size: 24px;
     text-align: center;
     padding: 15px;
-}
-.find-and-choose-here a {
-    background: #6bb537;
-    padding: 15px 30px;
-    color: #fff;
 }
 span.multiselect-selected-text:after {
     content: '\f105';
@@ -2168,3 +2175,31 @@ button.multiselect.dropdown-toggle.btn.btn-default {
 input.form-control:focus {
     border: 1px solid #ccc;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(138, 138, 138, 0.6);
+}
+a[href="#set1"] .img-container,
+a[href="#set2"] .img-container,
+a[href="#set3"] .img-container {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 12vw;
+}
+a[href="#set1"] .img-container{
+    background-image: url(../img/hestimator-icon1.svg);
+}
+a[href="#set2"] .img-container{
+    background-image: url(../img/hestimator-icon3.svg);
+}
+a[href="#set3"] .img-container{
+    background-image: url(../img/hestimator-icon2.svg);
+}
+
+a[href="#set1"].active-li .img-container{
+    background-image: url(../img/hestimator-icon1g.svg);
+}
+a[href="#set2"].active-li .img-container{
+    background-image: url(../img/hestimator-icon3g.svg);
+}
+a[href="#set3"].active-li .img-container{
+    background-image: url(../img/hestimator-icon2g.svg);
+}

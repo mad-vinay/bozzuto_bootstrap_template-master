@@ -181,10 +181,16 @@ $(document).ready(function() {
         includeSelectAllOption: true,
         maxHeight: 200,
     });
-   $("ul.nav-tabs a").click(function (e) {
-      e.preventDefault();  
+
+    $("ul.nav-tabs a").click(function (e) {
+        e.preventDefault();
+        $('ul.nav-tabs a.active-li').removeClass('active-li');
+        $(this).addClass('active-li');
+        $('.tab-content').show();
         $(this).tab('show');
     });
+
+    $('.tab-content').hide();
 
     $('.multiselect-container input').change(function(){
         var count = $( "ul.multiselect-container.dropdown-menu li.active" ).length;
