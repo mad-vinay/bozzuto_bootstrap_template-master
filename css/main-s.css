@@ -2157,10 +2157,7 @@ span.multiselect-selected-text:after {
 button.multiselect.dropdown-toggle.btn.btn-default .caret {
     display: none;
 }
-/*ul#hestimator_select button.btn.dropdown-toggle.btn-default {
-    height: 43px;
-    border-radius: 0;
+
+div#tab-1 form.form-inline.select-country {
     margin: 0;
-}*/
-/*#hestimator #tab-1 .btn-default{border-color:transparent;}*/
-/*#hestimator #tab-2 #Filter-list .btn, #hestimator #tab-2 .bootstrap-select .dropdown-toggle:focus, #tab-2 .bs-placeholder, #hestimator #tab-2 .card, #hestimator #tab-2 .bootstrap-select .dropdown-toggle{border: 1px solid #dedede !important;background-color:#fff !important;border-radius:0;height:45px;margin-bottom:0;padding: 3px 10px 0;}*/
+}
