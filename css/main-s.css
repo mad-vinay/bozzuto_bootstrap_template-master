@@ -1828,7 +1828,7 @@ footer.style1 .copyright .right {
 }
 #tab-2 .container-fluid.text-left {
     background-color: #f8f8f8;
-    box-shadow: 1px 7px 36px grey;
+    box-shadow: 0px 1px 15px grey;
     padding: 4vw;
     max-width: 650px;
 }
@@ -1906,6 +1906,7 @@ div#tab-2 {
     padding: 0;
     width: 75%;
     margin-top: 4vw;
+    box-shadow: none;
 }
 #hestimator .form-group .form-group {
     margin: 0;
@@ -2074,7 +2075,7 @@ div.sub31 > div {
 }
 .sub31 .container-fluid.text-left {
     border: 1px solid #6bb537;
-    background: #f9f9f9;
+    background: #f8f8f8;
 }
 div.sub31 > div:first-child {
     padding-top: 0;
