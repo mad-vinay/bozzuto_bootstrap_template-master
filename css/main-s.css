@@ -2083,25 +2083,13 @@ div.sub31 > div:first-child {
 div.sub31 > div:first-child h1 {
     margin-bottom: 50px;
 }
-/*#set3 form.form-inline {
-    margin-bottom: 20px;
-}*/
-/*#set3 .bootstrap-select>.dropdown-toggle.bs-placeholder {
-    background: #dddddd !important
-
-}*/
-/*#set3 .form-control {
-	height: 45px;
-	border-radius: 0;
-	background: #dddddd !important;
-	border: none;
-}*/
 .find-and-choose {
     background: #6bb537;
     color: #000;
     width: 100%;
     padding: 10px;
     text-align: center;
+    margin-top: 30px;
 }
 .find-and-choose a {
     color: #fff;
