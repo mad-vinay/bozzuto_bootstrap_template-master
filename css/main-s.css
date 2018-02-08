@@ -2014,6 +2014,7 @@ form.form-inline.select-country {
 #hestimator .nav-tabs > li.active > a:hover,
 #hestimator .nav-tabs > li.active > a:focus {
     background-color: transparent;
+    cursor: pointer;
 }
 .tabbed_menu.nav-tabs > li.active > a,
 .tabbed_menu.nav-tabs > li.active > a:hover,
@@ -2044,6 +2045,9 @@ ul.nav.nav-tabs.compare-here {
     border: none;
     letter-spacing: 1px;
     font-weight: 600;
+}
+a.find-and-choose:hover {
+    color: #fff;
 }
 ul.nav.nav-tabs.compare-here li {
     width: 30%;
