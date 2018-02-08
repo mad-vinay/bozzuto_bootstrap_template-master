@@ -71,6 +71,25 @@
 }
 
 @media (max-width: 767px) {
+	.btn-group button.multiselect.dropdown-toggle.btn.btn-default {
+	    padding: 5px;
+	}
+	div#tab-1 form.form-inline.select-country {
+	    margin-bottom: 10px;
+	}
+	#hestimator_select li.card {
+	    width: 100%;
+	}
+	#hestimator .container {
+	    flex-direction: column;
+	}
+	#hestimator_select li.first_card {
+		margin-bottom: 10px;
+	}
+	form.form-inline.select-country,
+	.compare-bank {
+		width: 100%;
+	}
 	#tab-2 h1,
 	.sub31 h1{
 	    font-size: 20px;
@@ -84,6 +103,7 @@
 	.sub32>div {
 	    width: 50%;
 	    border: 1px solid #6bb537;
+	    margin-bottom: 10px;
 	}
 	div.sub31 {
 	        flex-direction: column;
@@ -372,7 +392,9 @@
 		margin-bottom: 0;
 	}
 	
-	
+	span.multiselect-selected-text:after {
+		right: 10px;
+	}
 	
 	
 	
@@ -380,8 +402,25 @@
 }
 
 @media (max-width: 520px) {
+	.l-middleContent h2 span {
+		font-size: 42px;
+	}
+	#hestimator .l-middleContent h2 {
+	    font-size: 35px;
+	}
+	.hestimator-wrapper span.title {
+	    font-size: 15px;
+	}
+	ul.nav.nav-tabs.compare-here,
+	div#tab-2 {
+	    margin: 25px 0;
+	}
 	ul.nav.nav-tabs.compare-here li {
 	    width:50%;
+	}
+	ul.tabbed_menu.nav.nav-tabs li a {
+	    padding: 5px;
+	    margin: 0;
 	}
 	.sub32 .find-and-choose {
 	    margin-top: 20px;
@@ -403,20 +442,13 @@
     	width: 70%;
     }
     .hestimator-wrapper .tab-link span {
-	    font-size: 10px;
+	    font-size: 12px;
 	}
 	.hestimator-wrapper .tab-link.current:after {
 	    border-left: 20px solid transparent;
 	    border-right: 20px solid transparent;
 	    border-top: 15px solid green;
 	    bottom: -45px;
-	}
-	.bootstrap-select .filter-option:after {
-	    font-size: 14px;
-	    top: -1px;
-	}
-	.bootstrap-select.btn-group .dropdown-toggle .filter-option {
-	    font-size: 12px;
 	}
 	.bootstrap-select.btn-group .dropdown-menu.inner {
 	    font-size: 12px;
@@ -427,33 +459,10 @@
 	.compare-bank label {
     font-size: 12px;
 	}
-	span.multiselect-selected-text {
-	    font-size: 12px;
-	}
-	.compare-bank {
-	    width: 69%;
-	}
-	form.form-inline.select-country {
-	    width: 30%;
-	}
-	ul.nav.nav-tabs.compare-here {
-	    font-size: 8px !important;
-	}
 	.sub32>div {
 	    width: 100%;
 	}
-	span.multiselect-selected-text:after {
-	    top: 14px;
-	}
-
-@media (max-width: 400px) {
-	
-	.table-wrap {
-	    overflow-y: hidden;
-	}
-
 }
-
 
 
 

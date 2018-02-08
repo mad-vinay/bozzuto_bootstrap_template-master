@@ -72,7 +72,13 @@
 @media (min-width: 768px){
 	#hestimator_select li.card .form-inline .form-group{width:100%;}
 }
+@media screen and (max-width: 768px) {
+	ul.nav.nav-tabs.compare-here li{width: 37%;}
+}
 @media screen and (max-width: 767px) {
+	a[href="#set1"] .img-container, a[href="#set2"] .img-container, a[href="#set3"] .img-container {
+	    height: 18vw;
+	}
 	.l-banner-text h1 {
 		font-size: 30px;
 	}
@@ -344,4 +350,13 @@
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	#hestimator .container {width: 100%;}
+	#hestimator .l-middleContent h2 {font-size: 49px;}
+	#hestimator .l-middleContent{padding: 25px 0 0 0;}
+	#hestimator .tabbed_menu{margin-top:0;padding:15px 0;}
+
+}
+@media screen and (max-width: 580px) {
+	ul.nav.nav-tabs.compare-here li { width: 50% !important;}
+	ul.nav.nav-tabs.compare-here {font-size:12px !important;}	}
 }

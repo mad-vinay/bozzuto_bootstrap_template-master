@@ -2011,6 +2011,7 @@ form.form-inline.select-country {
 #hestimator ul.tab li a:focus,#hestimator  .active {
     background-color: transparent;
 }
+
 #hestimator .nav-tabs > li.active > a,
 #hestimator .nav-tabs > li.active > a:hover,
 #hestimator .nav-tabs > li.active > a:focus {
@@ -2057,6 +2058,7 @@ ul.nav.nav-tabs.compare-here li {
 ul.nav.nav-tabs.compare-here li a {
     color: #555151;
 }
+ul.nav.nav-tabs.compare-here li.active a{color:#69b429;}
 ul.nav.nav-tabs.compare-here > li > a:hover {
     border-color: #eee #eee #ddd;
 }
@@ -2117,7 +2119,7 @@ div.sub31 > div:first-child h1 {
     border-right: 0;
 }
 .sub32 {
-    display: flex;
+    display: flex;background: #f8f8f8;
 }
 .sub32>div.find-and-choose-here {
     border-right: 1px solid #6bb537;
@@ -2186,7 +2188,7 @@ a[href="#set3"] .img-container {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 12vw;
+    height: 115px;
 }
 a[href="#set1"] .img-container{
     background-image: url(../img/hestimator-icon1.svg);
