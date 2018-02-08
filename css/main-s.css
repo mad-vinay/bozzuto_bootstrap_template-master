@@ -1901,7 +1901,6 @@ div#tab-2 {
 }
 .hestimator-wrapper {
     padding-bottom: 40px;
-    background: #fff;
     height: 100%;
 }
 #tab-2 .container-fluid.text-left.btn-wrap {
@@ -2027,7 +2026,7 @@ form.form-inline.select-country {
     border: none;
 }
 body.hestimator {
-    height: calc(100vh - 45px);
+    background-color: #fff;
 }
 .tabbed_menu.nav > li > a:hover, 
 .tabbed_menu.nav > li > a:focus {
