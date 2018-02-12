@@ -1865,12 +1865,22 @@ div#tab-2 {
 }
 #tab-2   .checkbox input {
 	-webkit-appearance: checkbox;
+	-moz-appearance: checkbox;
 	    margin-left: 15px;
     width: 20px;
     height: 18px;
 }
 #tab-2  .radio label, .checkbox label {
 	padding: 0;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus {
+	background: #69b429;
+}
+.dropdown-menu > .active > a:hover {
+	background: grey;
+}
+div#hestimator .btn-default {
+    padding-right: 10px;
 }
 .checkbox label span{display:inline-block;min-width:135px;}
 #tab-2 .selectbox-inline select {
@@ -1968,6 +1978,7 @@ ul#hestimator_select {
 
 .compare-wrap input {
     -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
 }
 .compare-bank {
     display: flex;
