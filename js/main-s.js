@@ -188,17 +188,34 @@ $(document).ready(function() {
 
     });
 
+    $('#calculate-emi').on('click', function(event) {
+        $("#plot-graph").css("display", "block");
+        var target = $(this.getAttribute('href'));
+
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
+
+    });
+
     $('#boot-multiselect-demo').multiselect({
         nonSelectedText:'Select bank to compare',
         includeSelectAllOption: true,
         maxHeight: 200,
     });
 
-    $("ul.nav-tabs a").click(function (e) {
+    $("ul.tabbed_menu.nav-tabs a").click(function (e) {
         e.preventDefault();
         $('ul.tabbed_menu.nav-tabs a.active-li').removeClass('active-li');
         $(this).addClass('active-li');
-        $("#calculation-result").css("display", "none");
+    });
+
+    $("ul.nav-tabs a").click(function (e) {
+        e.preventDefault();
+        $("#calculation-result, #plot-graph").css("display", "none");
         $('.tab-content').show();
         $(this).tab('show');
     });

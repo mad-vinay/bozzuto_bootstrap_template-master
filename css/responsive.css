@@ -71,6 +71,13 @@
 }
 
 @media (max-width: 767px) {
+	.sub32 {
+	     box-shadow: none; 
+	}
+	.sub32>div:nth-child(3),
+	.sub32>div.find-and-choose-here {
+	    margin: 0;
+	}
 	.btn-group button.multiselect.dropdown-toggle.btn.btn-default {
 	    padding: 5px;
 	}
@@ -102,8 +109,8 @@
 	}
 	.sub32>div {
 	    width: 50%;
-	    border: 1px solid #6bb537;
-	    margin-bottom: 10px;
+		box-shadow: 0px 1px 10px grey;
+	    margin-bottom: 20px;
 	}
 	div.sub31 {
 	        flex-direction: column;
@@ -404,6 +411,10 @@
 }
 
 @media (max-width: 520px) {
+
+	.sub32>div.find-and-choose-here {
+	    margin-top: 20px;
+	}
 	.l-middleContent h2 span {
 		font-size: 42px;
 	}
@@ -468,6 +479,30 @@
 	.sub31 h1{
 	    font-size: 20px;
    	}
+   	.x-he {
+	    left: 100%;
+	    width: 100%;
+	}
+	.x-he td {
+	    padding: 3px;
+	    text-align: left;
+	}
+	#grafico {
+	    height: 130px;
+	    width: 147px;
+	}
+	.he-resultg h4 {
+	    font-size: 20pt;
+	}
+	.he-emiresult {
+	    font-size: 18pt;
+	}
+	.he-rsult {
+	    max-height: 575px;
+	}
+	#contenitore {
+	    font-size: 12px;
+	}
 }
 
 
