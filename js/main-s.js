@@ -188,6 +188,12 @@ $(document).ready(function() {
 
     });
 
+    $('#tab-2 input[type="checkbox"]').click(function(){
+        var target = $(this).data('target');
+        $("." + target).toggle();
+    });
+
+
     $('#calculate-emi').on('click', function(event) {
         $("#plot-graph").css("display", "block");
         var target = $(this.getAttribute('href'));

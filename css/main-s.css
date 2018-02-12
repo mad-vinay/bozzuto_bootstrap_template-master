@@ -1863,12 +1863,17 @@ div#tab-2 {
     border: 1px solid #6bb537;
     border-radius: 5px;	
 }
-#tab-2   .checkbox input {
-	-webkit-appearance: checkbox;
-	-moz-appearance: checkbox;
-	    margin-left: 15px;
+#tab-2   .checkbox input[type=checkbox] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    margin-left: 15px;
     width: 20px;
     height: 18px;
+    position: initial;
+}
+#tab-2   .checkbox label {
+	display: flex;
+	align-items: center;
 }
 #tab-2  .radio label, .checkbox label {
 	padding: 0;
@@ -2372,4 +2377,11 @@ a[href="#set3"].active-li .img-container{
 }
 .canc {
     clear: both;
+}
+.box{
+    display: none;
+    margin: 10px 0;
+}
+.box .btn-group {
+    margin: 10px 0;
 }
