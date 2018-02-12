@@ -175,6 +175,18 @@ $(document).ready(function() {
        if ($(this).val()=='') $(this).val($(this).data('defaultText')); 
    });
 
+    $('#calculate').on('click', function(event) {
+        $("#calculation-result").css("display", "flex");
+        var target = $(this.getAttribute('href'));
+
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
+
+    });
 
     $('#boot-multiselect-demo').multiselect({
         nonSelectedText:'Select bank to compare',
@@ -184,7 +196,7 @@ $(document).ready(function() {
 
     $("ul.nav-tabs a").click(function (e) {
         e.preventDefault();
-        $('ul.nav-tabs a.active-li').removeClass('active-li');
+        $('ul.tabbed_menu.nav-tabs a.active-li').removeClass('active-li');
         $(this).addClass('active-li');
         $('.tab-content').show();
         $(this).tab('show');

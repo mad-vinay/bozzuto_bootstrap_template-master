@@ -76,6 +76,9 @@
 	ul.nav.nav-tabs.compare-here li{width: 37%;}
 }
 @media screen and (max-width: 767px) {
+	#hestimator #calculation-result h2 {
+	    font-size: 30px;
+	}
 	a[href="#set1"] .img-container, a[href="#set2"] .img-container, a[href="#set3"] .img-container {
 	    height: 18vw;
 	}

@@ -1785,13 +1785,14 @@ footer.style1 .copyright .right {
     border-radius: 10px;
 }
 .hestimator-wrapper td {
-	vertical-align: middle !important;
-    width: 13%;
+    vertical-align: middle !important;
     padding: 35px 1vw !important;
     text-align: left;
     border-top: none !important;
     border-right: 1px solid #c6c6c6;
     font-size: 12px;
+    min-width: 100px;
+    max-width: 100px;
 }
 .hestimator-wrapper th {
 	width: 13%;
@@ -1799,7 +1800,8 @@ footer.style1 .copyright .right {
     font-size: 14px;
 }
 .hestimator-wrapper .table > thead > tr > th {
-	border: none;
+	border:1px solid #fff;
+	background-color:#69b429;color:#fff;
 }
 .hestimator-wrapper td:last-child {
     border-right: none;
@@ -1844,7 +1846,7 @@ div#tab-2 {
     margin: 75px 0 0;
 }
 #tab-2 .container-fluid p {
-    margin: 45px 0;text-align:center;
+    margin: 45px auto;text-align:center;max-width: 650px;
 }
 #tab-2  .form-group {
     display: flex;
@@ -1870,6 +1872,7 @@ div#tab-2 {
 #tab-2  .radio label, .checkbox label {
 	padding: 0;
 }
+.checkbox label span{display:inline-block;min-width:135px;}
 #tab-2 .selectbox-inline select {
     width: 20%;
     border-radius: 0;
@@ -1900,6 +1903,7 @@ div#tab-2 {
     height: 45px;
     border-radius: 0;background:#69b429;font-size: 18px;font-weight: bold;border:0;
 }
+#tab-2 button.btn.btn-success:hover{background: #f39200;}
 .hestimator-wrapper {
     padding-bottom: 40px;
     height: 100%;
@@ -1996,12 +2000,12 @@ form.form-inline.select-country {
     width: 47%;
 }
 #hestimator .bootstrap-select .filter-option:after {
-    -webkit-transform: rotate(90deg);
+    /*-webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    top: auto;
+    top: auto;*/
 }
 #hestimator .bootstrap-select.btn-group .dropdown-toggle .filter-option {
     display: flex;
@@ -2028,6 +2032,7 @@ form.form-inline.select-country {
     /*background-color: green;*/
     border: none;
 }
+.tabbed_menu li:hover span{color:#69b429;}
 body.hestimator {
     background-color: #fff;
 }
@@ -2048,9 +2053,10 @@ ul.nav.nav-tabs.compare-here {
     letter-spacing: 1px;
     font-weight: 600;
 }
-a.find-and-choose:hover {
-    color: #fff;
+a.find-and-choose:hover, .find-and-choose:hover{
+    color: #fff;background: #f39200;cursor: pointer;
 }
+#sub32 a.find-and-choose{margin-bottom:15px;}
 ul.nav.nav-tabs.compare-here li {
     width: 30%;
     text-align: center;
@@ -2060,7 +2066,7 @@ ul.nav.nav-tabs.compare-here li a {
 }
 ul.nav.nav-tabs.compare-here li.active a{color:#69b429;}
 ul.nav.nav-tabs.compare-here > li > a:hover {
-    border-color: #eee #eee #ddd;
+    border-color: #eee #eee #ddd;background-color: transparent;color: #69b429;
 }
 ul.nav.nav-tabs.compare-here > li > a {
     border-color: #eee #eee #ddd;
@@ -2085,8 +2091,8 @@ div.sub31 > div {
     padding: 30px;
 }
 .sub31 .container-fluid.text-left {
-    border: 1px solid #6bb537;
-    background: #f8f8f8;
+    /*border: 1px solid #6bb537;*/
+    background: #f8f8f8;box-shadow: 0px 1px 15px grey;
 }
 div.sub31 > div:first-child {
     padding-top: 0;
@@ -2095,7 +2101,6 @@ div.sub31 > div:first-child h1 {
     margin-bottom: 50px;
 }
 .find-and-choose {
-    margin-top: 30px;
     width: 100%;
     height: 45px;
     border-radius: 0;
@@ -2107,22 +2112,22 @@ div.sub31 > div:first-child h1 {
     display: flex;
     justify-content: center;
     color: #fff;
-    text-transform: capitalize;
+    text-transform: capitalize;max-width:255px;margin:30px auto 0;
 }
 .find-and-choose a {
     color: #fff;
 }
 .sub32>div {
     width: 25%;
-    border: 1px solid #6bb537;
-    padding: 15px;
+/*    border: 1px solid #6bb537;
+*/    padding: 15px;
     border-right: 0;
 }
 .sub32 {
-    display: flex;background: #f8f8f8;
+    display: flex;background: #f8f8f8;box-shadow: 0px 1px 15px grey;
 }
 .sub32>div.find-and-choose-here {
-    border-right: 1px solid #6bb537;
+    /*border-right: 1px solid #6bb537;*/
 }
 #hestimator .sub32>div.find-and-choose-here h2,
 #hestimator .sub32>div.find-and-choose-here h2 span{
@@ -2146,15 +2151,14 @@ span.multiselect-selected-text:after {
     margin-left: 5px;
     right: 8px;
     font-size: 20px;
-    top: -2px;
-    -webkit-transform: rotate(90deg);
+    /*-webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    top: auto;
+    transform: rotate(90deg);*/
+    top: 12px;
     position: absolute;
-    right: 15px;
+    right: 8px;
 }
 button.multiselect.dropdown-toggle.btn.btn-default .caret {
     display: none;
@@ -2210,5 +2214,32 @@ a[href="#set3"].active-li .img-container{
     background-image: url(../img/hestimator-icon2g.svg);
 }
 .active-li .cell span {
-    font-weight: bold;
+    font-weight: bold;color:#69b429;
+}
+.dropdown-menu{padding:0;}
+.multiselect-container{min-width:100%;}
+.bootstrap-select .filter-option:after{top:0;}
+.bootstrap-select .bs-placeholder .filter-option:after{right:0px;top:0px;}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{line-height:20px;}
+.btn:active, .btn.active{box-shadow: none;}
+div#calculation-result {
+	margin: 200px 0;
+    text-align: center;
+    display: none;
+    background: #f3f3f2;
+    padding: 50px 15px;
+    flex-direction: column;
+    align-items: center;
+}
+#hestimator #calculation-result h2 {
+    font-size: 40px;
+}
+#hestimator #calculation-result h2:nth-child(2) {
+    color: #69b429;
+    margin-bottom: 20px;
+}
+.results {
+    margin: 100px 0 0;
+    text-align: left;
+    font-size: 13px;
 }
