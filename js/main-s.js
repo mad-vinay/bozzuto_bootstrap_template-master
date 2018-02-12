@@ -198,6 +198,7 @@ $(document).ready(function() {
         e.preventDefault();
         $('ul.tabbed_menu.nav-tabs a.active-li').removeClass('active-li');
         $(this).addClass('active-li');
+        $("#calculation-result").css("display", "none");
         $('.tab-content').show();
         $(this).tab('show');
     });
