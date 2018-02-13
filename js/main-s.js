@@ -229,7 +229,7 @@ $(document).ready(function() {
 
     $("ul.nav-tabs a").click(function (e) {
         e.preventDefault();
-        $("#calculation-result, #plot-graph", "#emi-comparison").css("display", "none");
+        $("#calculation-result, #plot-graph, #emi-comparison").css("display", "none");
         $('.tab-content').show();
         $(this).tab('show');
     });
