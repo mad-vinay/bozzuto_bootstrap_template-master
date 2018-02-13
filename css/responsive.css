@@ -74,10 +74,10 @@
 	.sub32 {
 	     box-shadow: none; 
 	}
-	.sub32>div:nth-child(3),
+	/*.sub32>div:nth-child(3),
 	.sub32>div.find-and-choose-here {
 	    margin: 0;
-	}
+	}*/
 	.btn-group button.multiselect.dropdown-toggle.btn.btn-default {
 	    padding: 5px;
 	}
@@ -412,9 +412,9 @@
 
 @media (max-width: 520px) {
 
-	.sub32>div.find-and-choose-here {
+	/*.sub32>div.find-and-choose-here {
 	    margin-top: 20px;
-	}
+	}*/
 	.l-middleContent h2 span {
 		font-size: 42px;
 	}

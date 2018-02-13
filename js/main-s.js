@@ -208,7 +208,7 @@ $(document).ready(function() {
     });
 
 
-    $('.find-and-choose').click( function(event){
+    $('.find-and-choose-here .find-and-choose').click( function(event){
         event.preventDefault();
         $(".sub32 .container-fluid.text-left").toggleClass("inactive-section");
         $(".sub32 .container-fluid.text-left#compare-emi-result").toggleClass("active-section");

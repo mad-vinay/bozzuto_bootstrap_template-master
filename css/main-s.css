@@ -1885,7 +1885,7 @@ div#tab-2 {
 	background: grey;
 }
 div#hestimator .btn-default {
-    padding-right: 10px;
+    padding: 10px;
 }
 .checkbox label span{display:inline-block;min-width:135px;}
 #tab-2 .selectbox-inline select {
@@ -1940,7 +1940,7 @@ div#hestimator .btn-default {
     justify-content: space-between;
     flex-direction: row;
 }
-.hestimator-wrapper .tab-link span{color:#000;margin-top:10px;}
+.hestimator-wrapper .tab-link span{color:#000;margin-top:10px; font-size: 20px;}
 /*.hestimator-wrapper .tabbed_menu .active-li:after {
 	width: 0; 
 	height: 0; 
@@ -1957,10 +1957,10 @@ div#hestimator .btn-default {
 .bootstrap-select>.dropdown-toggle.bs-placeholder:active, 
 .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, 
 .bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
-    background-color: #fff !important;
+   /* background-color: #fff !important;
     display: flex;
     align-items: center;
-	margin: 0;
+	margin: 0;*/
 }
 #tab-2 .selectbox-inline .form-group:first-child {
     width: 60% ;
@@ -2016,12 +2016,7 @@ form.form-inline.select-country {
     width: 47%;
 }
 #hestimator .bootstrap-select .filter-option:after {
-    /*-webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    top: auto;*/
+    right: 0;
 }
 #hestimator .bootstrap-select.btn-group .dropdown-toggle .filter-option {
     display: flex;
@@ -2138,9 +2133,8 @@ div.sub31 > div:first-child h1 {
 }
 .sub32>div {
     width: 25%;
-    border-right: 1px solid;
+    border-right: 1px solid #d4d4d4;
     padding: 15px;
-    border-color: #eee #eee #ddd;
     background: #f8f8f8;
 }
 .sub32 {
@@ -2169,16 +2163,10 @@ span.multiselect-selected-text:after {
     content: '\f105';
     font-family: "fontello";
     margin-left: 5px;
-    right: 8px;
+    right: 10px;
     font-size: 20px;
-    /*-webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);*/
     top: 12px;
     position: absolute;
-    right: 8px;
 }
 button.multiselect.dropdown-toggle.btn.btn-default .caret {
     display: none;
@@ -2396,6 +2384,8 @@ a[href="#set3"].active-li .img-container{
 }
 .active-section#compare-emi-result {
     display: block;
+    background: #fff;
+    color: #69b429;
 }
 .form-inline.emi-result .form-group {
     display: flex;
