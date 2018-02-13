@@ -2241,15 +2241,16 @@ a[href="#set3"].active-li .img-container{
 }
 #hestimator #calculation-result h2 {
     font-size: 40px;
+    margin: 0;
 }
 #hestimator #calculation-result h2:nth-child(2) {
     color: #69b429;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 .results {
-    margin: 100px 0 0;
+    margin: 20px 0 0;
     text-align: left;
-    font-size: 13px;
+    font-size: 15px;
 }
 .he-rsult {
     position: relative;
@@ -2311,13 +2312,16 @@ a[href="#set3"].active-li .img-container{
     left: 55%;
     position: relative;
     transform: translate(-50%,0);
-    top: 170px;
+    top: 135px;
     width: 85%;
     background-color: white;
     color: #000;
     margin: 1em auto;
     float: right;
     left: 150%;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #f9f9f9;
 }
 .he-tb tr {
     margin-bottom: 5px;
@@ -2384,8 +2388,10 @@ a[href="#set3"].active-li .img-container{
 }
 .active-section#compare-emi-result {
     display: block;
+}
+.lower-rate#compare-emi-result {
     background: #fff;
-    color: #69b429;
+    color: #69b429;	
 }
 .form-inline.emi-result .form-group {
     display: flex;
