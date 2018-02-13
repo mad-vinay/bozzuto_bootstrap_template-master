@@ -2073,6 +2073,9 @@ a.find-and-choose:hover, .find-and-choose:hover{
     color: #fff;background: #f39200;cursor: pointer;
 }
 #sub32 a.find-and-choose{margin-bottom:15px;}
+#sub32 a.find-and-choose:focus {
+	color: #fff;
+}
 ul.nav.nav-tabs.compare-here li {
     width: 30%;
     text-align: center;
@@ -2384,4 +2387,35 @@ a[href="#set3"].active-li .img-container{
 }
 .box .btn-group {
     margin: 10px 0;
+}
+#compare-emi-result {
+	display: none;
+}
+.inactive-section {
+    display: none;
+}
+.active-section#compare-emi-result {
+    display: block;
+}
+.form-inline.emi-result .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-inline.emi-result .form-group label {
+    background: grey;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 35px;
+    margin: 0;
+}
+.form-inline.emi-result .form-group .form-group p {
+    margin: 0;
+    padding: 5px 0;
+}
+.form-inline.emi-result .form-group .form-group {
+    background: #69b429;
+    color: #fff;
 }

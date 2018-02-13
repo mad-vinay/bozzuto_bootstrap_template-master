@@ -207,6 +207,14 @@ $(document).ready(function() {
 
     });
 
+
+    $('.find-and-choose').click( function(event){
+        event.preventDefault();
+        $(".sub32 .container-fluid.text-left").toggleClass("inactive-section");
+        $(".sub32 .container-fluid.text-left#compare-emi-result").toggleClass("active-section");
+        ($(this).text() === "compare") ? $(this).text("Done") : $(this).text("compare");
+    });
+
     $('#boot-multiselect-demo').multiselect({
         nonSelectedText:'Select bank to compare',
         includeSelectAllOption: true,
@@ -221,7 +229,7 @@ $(document).ready(function() {
 
     $("ul.nav-tabs a").click(function (e) {
         e.preventDefault();
-        $("#calculation-result, #plot-graph").css("display", "none");
+        $("#calculation-result, #plot-graph", "#emi-comparison").css("display", "none");
         $('.tab-content').show();
         $(this).tab('show');
     });
