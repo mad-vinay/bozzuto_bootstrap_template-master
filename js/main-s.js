@@ -245,6 +245,9 @@ $(document).ready(function() {
         }
     });
 
+
+    $(".pickerSelectClass").selectpicker();   
+
 });
 
 
